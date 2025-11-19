@@ -3,7 +3,7 @@ import path from 'path'
 
 export default {
   plugins: [react()],
-  base: '/demo-store-locator',
+  base: '/mapboxV2',
   envDir: '.',
   resolve: {
     alias: {
