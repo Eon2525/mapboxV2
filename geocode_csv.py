@@ -100,10 +100,18 @@ def convert_csv_to_geojson():
             total_count += 1
             
             # Extract data
-            address_line = row.get('Forvalt.visitorAddress.addressLine', '').strip()
-            post_place = row.get('Forvalt.visitorAddress.postPlace', '').strip()
-            zip_code = row.get('Forvalt.visitorAddress.zipCode', '').strip()
-            butikk = row.get('Butikk', '').strip()
+            def get_value(*keys: str) -> str:
+                for key in keys:
+                    if key in row and row[key]:
+                        return row[key].strip()
+                return ''
+
+            address_line = get_value('Forvalt.visitorAddress.addressLine')
+            post_place = get_value('Forvalt.visitorAddress.postPlace')
+            zip_code = get_value('Forvalt.visitorAddress.zipCode')
+            butikk = get_value('Butikk', '\ufeffButikk')
+            # Kjøpesenter beholdt for eventuell senere bruk, men brukes ikke i GeoJSON nå
+            shopping_center = get_value('Kjøpesenter')
             
             # Parse coordinates (handle comma as decimal separator)
             longitude = parse_coordinate(row.get('Longitude', ''))
@@ -139,7 +147,8 @@ def convert_csv_to_geojson():
                     'city': post_place,
                     'zipCode': zip_code,
                     'addressLine': address_line,
-                    'butikk': butikk
+                    'butikk': butikk,
+                    'shoppingCenter': shopping_center
                 }
             }
             

@@ -1,4 +1,5 @@
 import React, { createContext, useState, useEffect, useMemo } from 'react'
+import storeGeoJsonRaw from '../../steder.geojson?raw'
 
 // Create App level context
 export const AppContext = createContext()
@@ -32,6 +33,16 @@ export const AppContextProvider = ({ children }) => {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
+  const storeFeatures = useMemo(() => {
+    try {
+      const parsed = JSON.parse(storeGeoJsonRaw)
+      return parsed?.features ? [...parsed.features] : []
+    } catch (error) {
+      console.error('Kunne ikke laste butikkdata', error)
+      return []
+    }
+  }, [])
+
   const value = useMemo(
     () => ({
       activeFeature,
@@ -51,7 +62,8 @@ export const AppContextProvider = ({ children }) => {
       searchValue,
       setSearchValue,
       isMobile,
-      setIsMobile
+      setIsMobile,
+      storeFeatures
     }),
     [
       activeFeature,
@@ -62,7 +74,8 @@ export const AppContextProvider = ({ children }) => {
       loadingUserLocation,
       searchResult,
       searchValue,
-      isMobile
+      isMobile,
+      storeFeatures
     ]
   )
 

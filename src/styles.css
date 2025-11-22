@@ -185,6 +185,62 @@ body {
   font-weight: 600;
 }
 
+.store-search-results {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  z-index: 40;
+  overflow: hidden;
+}
+
+.store-search-results__header {
+  padding: 10px 14px 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #64748b;
+  letter-spacing: 0.05em;
+}
+
+.store-search-results__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.store-search-results__item {
+  cursor: pointer;
+  padding: 12px 14px;
+  border-top: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+.store-search-results__item:first-of-type {
+  border-top: none;
+}
+
+.store-search-results__item:hover {
+  background-color: rgba(203, 213, 225, 0.24);
+}
+
+.store-search-results__title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 2px;
+}
+
+.store-search-results__meta {
+  font-size: 13px;
+  color: #475569;
+}
+
 /* Toggle for Mapbox tooltips */
 .info {
   bottom: -40px;

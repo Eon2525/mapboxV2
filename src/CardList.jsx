@@ -65,14 +65,9 @@ const CardList = () => {
           )
         })}
 
-      {features.length == 0 && (
-        <div className='my-4 mx-5'>
-          <h3 className='font-bold text-2xl border-b-4 border-maroon mb-2'>
-            For langt utzoomet
-          </h3>
-          <p className='text-slate-400'>
-            Søk eller zoom inn for å vise virksomheter i området.
-          </p>
+      {features.length === 0 && (
+        <div className='my-4 mx-5 text-slate-400'>
+          Søk eller zoom inn for å vise virksomheter i området.
         </div>
       )}
     </div>
