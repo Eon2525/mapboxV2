@@ -160,7 +160,7 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
                   onClick={() => handleStoreSelect(feature)}
                 >
                   <div className='store-search-results__title'>
-                    {name || butikk || 'Butikk uten navn'}
+                    {name || shoppingCenter || butikk || 'Butikk uten navn'}
                   </div>
                   {subtitle && (
                     <div className='store-search-results__meta'>{subtitle}</div>

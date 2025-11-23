@@ -6,7 +6,7 @@
 
 'use client'
 
-import React, { useRef, useEffect, useContext } from 'react'
+import React, { useRef, useEffect, useContext, useMemo } from 'react'
 import Card from './Card'
 import { AppContext } from './Context/AppContext'
 
@@ -14,6 +14,29 @@ const CardList = () => {
   const locationRefs = useRef([])
   const { features, activeFeature, setActiveFeature, isMobile } =
     useContext(AppContext)
+
+  const sortedFeatures = useMemo(() => {
+    return [...features].sort((a, b) => {
+      const propsA = a?.properties || {}
+      const propsB = b?.properties || {}
+
+      const labelA = (
+        propsA.name ||
+        propsA.shoppingCenter ||
+        propsA.butikk ||
+        ''
+      ).toLowerCase()
+
+      const labelB = (
+        propsB.name ||
+        propsB.shoppingCenter ||
+        propsB.butikk ||
+        ''
+      ).toLowerCase()
+
+      return labelA.localeCompare(labelB)
+    })
+  }, [features])
 
   // on click, set the active feature
   const handleFeatureClick = (feature) => {
@@ -46,10 +69,11 @@ const CardList = () => {
     }
   }, [activeFeature, isMobile])
 
+
   return (
     <div className='overflow-y-auto invisible sm:visible h-0 sm:h-auto'>
-      {features.length > 0 &&
-        features.map((feature, i) => {
+      {sortedFeatures.length > 0 &&
+        sortedFeatures.map((feature, i) => {
           return (
             <div
               key={i}
@@ -65,7 +89,7 @@ const CardList = () => {
           )
         })}
 
-      {features.length === 0 && (
+      {sortedFeatures.length === 0 && (
         <div className='my-4 mx-5 text-slate-400'>
           Søk eller zoom inn for å vise virksomheter i området.
         </div>

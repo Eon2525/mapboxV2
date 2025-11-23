@@ -21,7 +21,12 @@ export const pluralize = (number, word) => {
 export const LocationData = ({ feature }) => {
   const { coordinates } = feature.geometry
   const { activeLocation } = useContext(AppContext)
-  const { address, name, city, phone, id, state } = feature.properties
+  const { address, name, city, phone, id, state, shoppingCenter } =
+    feature.properties
+
+  const primaryName = name || shoppingCenter || 'Virksomhet'
+  const secondaryName =
+    shoppingCenter && shoppingCenter !== name ? shoppingCenter : null
 
   // Use turf.js to calculate distance from map Center (userLocation or search Location) to Feature
   function getDistance(feature, location) {
@@ -33,13 +38,18 @@ export const LocationData = ({ feature }) => {
   return (
     <div className='flex justify-between w-full'>
       <div className='grow'>
-        <div className='flex'>
-          <MarkerIcon /> Store # {id}
+        <div className='flex items-center gap-2 text-slate-500 text-sm'>
+          <MarkerIcon />
+          {secondaryName || primaryName}
         </div>
-        <h3 className='text-lg font-bold'>{name}</h3>
+        <h3 className='text-lg font-bold'>{primaryName}</h3>
+        {secondaryName && (
+          <div className='text-sm text-slate-500'>{secondaryName}</div>
+        )}
         <address>{address}</address>
         <address>
-          {city}, {state}
+          {city}
+          {state ? `, ${state}` : ''}
         </address>
         <a className='text-maroon font-bold' href={`tel:+1${phone}`}>
           {phone}

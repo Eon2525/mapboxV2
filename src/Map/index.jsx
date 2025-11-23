@@ -45,7 +45,7 @@ const Map = ({ onLoad }) => {
     const location = activeLocationRef.current
 
     if (location) {
-      const fallbackZoom = location.type === 'user' ? 11 : 12
+      const fallbackZoom = location.type === 'user' ? 16 : 12
       mapRef.current.flyTo({
         center: location.coords,
         zoom: fallbackZoom,
