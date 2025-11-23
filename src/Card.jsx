@@ -40,7 +40,6 @@ export const LocationData = ({ feature }) => {
       <div className='grow'>
         <div className='flex items-center gap-2 text-slate-500 text-sm'>
           <MarkerIcon />
-          {secondaryName || primaryName}
         </div>
         <h3 className='text-lg font-bold'>{primaryName}</h3>
         {secondaryName && (
