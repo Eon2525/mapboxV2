@@ -275,7 +275,7 @@ const Map = ({ onLoad }) => {
         addUserLocationPulse(mapRef, pulseRef, activeLocation)
       }
 
-      const targetZoom = activeLocation.type === 'user' ? 11 : 12
+      const targetZoom = activeLocation.type === 'user' ? 16 : 12
 
       mapRef.current.flyTo({
         center: activeLocation.coords,

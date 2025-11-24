@@ -26,13 +26,17 @@ export const searchStores = (stores = [], query = '', limit = 8) => {
   const normalizedQuery = normalizeString(query)
   if (!normalizedQuery || normalizedQuery.length < 2) return []
 
-  const results = []
+  const centerMatches = []
+  const storeMatches = []
 
   for (const feature of stores) {
     if (!feature?.properties) continue
     const haystack = buildSearchHaystack(feature.properties)
     if (haystack.includes(normalizedQuery)) {
-      results.push(feature)
+      const bucket = feature.properties?.isShoppingCenter
+        ? centerMatches
+        : storeMatches
+      bucket.push(feature)
     } else if (normalizedQuery.length >= 2) {
       // try partial match by splitting query words
       const words = normalizedQuery.split(/\s+/).filter(Boolean)
@@ -40,14 +44,17 @@ export const searchStores = (stores = [], query = '', limit = 8) => {
       if (!allWordsPresent) {
         continue
       }
-      results.push(feature)
+      const bucket = feature.properties?.isShoppingCenter
+        ? centerMatches
+        : storeMatches
+      bucket.push(feature)
     }
 
-    if (results.length >= limit) {
+    if (centerMatches.length + storeMatches.length >= limit * 2) {
       break
     }
   }
 
-  return results
+  return [...centerMatches, ...storeMatches].slice(0, limit)
 }
 

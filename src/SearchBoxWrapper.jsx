@@ -64,6 +64,7 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
     setSearchResult(value)
     setActiveFeature(null)
     setStoreResults([])
+    setIsFocused(false)
 
     if (mapInstanceRef.current?.flyTo) {
       mapInstanceRef.current.flyTo({
@@ -83,6 +84,7 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
     setSearchResult(null)
     setStoreResults([])
     setSearchValue(feature.properties?.name ?? '')
+    setIsFocused(false)
 
     if (mapInstanceRef.current?.flyTo) {
       mapInstanceRef.current.flyTo({
@@ -149,9 +151,32 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
           <div className='store-search-results__header'>Butikker</div>
           <ul className='store-search-results__list'>
             {storeResults.map((feature) => {
-              const { id, name, city, address, butikk } =
-                feature.properties || {}
-              const subtitle = [butikk, address, city].filter(Boolean).join(' · ')
+              const {
+                id,
+                name,
+                city,
+                address,
+                butikk,
+                shoppingCenter,
+                isShoppingCenter,
+                storeCount
+              } = feature.properties || {}
+
+              const title =
+                name || shoppingCenter || butikk || 'Butikk uten navn'
+
+              const subtitleParts = isShoppingCenter
+                ? [
+                    storeCount
+                      ? `${storeCount} ${storeCount === 1 ? 'butikk' : 'butikker'}`
+                      : 'Kjøpesenter',
+                    address,
+                    city
+                  ]
+                : [shoppingCenter, butikk, address, city]
+
+              const subtitle = subtitleParts.filter(Boolean).join(' · ')
+
               return (
                 <li
                   key={id ?? `${name}-${feature.geometry.coordinates.join(',')}`}
@@ -160,7 +185,7 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
                   onClick={() => handleStoreSelect(feature)}
                 >
                   <div className='store-search-results__title'>
-                    {name || shoppingCenter || butikk || 'Butikk uten navn'}
+                    {title}
                   </div>
                   {subtitle && (
                     <div className='store-search-results__meta'>{subtitle}</div>

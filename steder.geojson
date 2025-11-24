@@ -73520,6 +73520,3834 @@
         "butikk": "COOP ØST SA AVD 2704 COOP MEGA BISLETT",
         "shoppingCenter": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.27263058,
+          69.96617217
+        ]
+      },
+      "properties": {
+        "id": "sc-3677",
+        "name": "AMFI Alta",
+        "address": "Markesgate 21-25",
+        "city": "Alta",
+        "zipCode": "9510",
+        "addressLine": "Markesgate 21-25",
+        "butikk": "AMFI Alta",
+        "shoppingCenter": "AMFI Alta",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.411606359166667,
+          59.26932132583334
+        ]
+      },
+      "properties": {
+        "id": "sc-3678",
+        "name": "Farmandstredet",
+        "address": "Jernbanegaten 1D",
+        "city": "Tønsberg",
+        "zipCode": "3110",
+        "addressLine": "Jernbanegaten 1D",
+        "butikk": "Farmandstredet",
+        "shoppingCenter": "Farmandstredet",
+        "isShoppingCenter": true,
+        "storeCount": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.721739441249999,
+          58.87642851937501
+        ]
+      },
+      "properties": {
+        "id": "sc-3679",
+        "name": "Kvadrat",
+        "address": "Gamle Stokkavei 1",
+        "city": "Sandnes",
+        "zipCode": "4313",
+        "addressLine": "Gamle Stokkavei 1",
+        "butikk": "Kvadrat",
+        "shoppingCenter": "Kvadrat",
+        "isShoppingCenter": true,
+        "storeCount": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.33174967,
+          59.39518083
+        ]
+      },
+      "properties": {
+        "id": "sc-3680",
+        "name": "Alti Amanda",
+        "address": "Longhammarvegen 27",
+        "city": "Haugesund",
+        "zipCode": "5536",
+        "addressLine": "Longhammarvegen 27",
+        "butikk": "Alti Amanda",
+        "shoppingCenter": "Alti Amanda",
+        "isShoppingCenter": true,
+        "storeCount": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.233628189999999,
+          60.36322021
+        ]
+      },
+      "properties": {
+        "id": "sc-3681",
+        "name": "Vestkanten Storsenter",
+        "address": "Loddefjordveien 2",
+        "city": "Loddefjord",
+        "zipCode": "5171",
+        "addressLine": "Loddefjordveien 2",
+        "butikk": "Vestkanten Storsenter",
+        "shoppingCenter": "Vestkanten Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.742728660000001,
+          59.758594805
+        ]
+      },
+      "properties": {
+        "id": "sc-3682",
+        "name": "Vestby Outlet",
+        "address": "Vestbyveien 15",
+        "city": "Vestby",
+        "zipCode": "1543",
+        "addressLine": "Vestbyveien 15",
+        "butikk": "Vestby Outlet",
+        "shoppingCenter": "Vestby Outlet",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.70323988,
+          59.4462476
+        ]
+      },
+      "properties": {
+        "id": "sc-3683",
+        "name": "Mosseporten Senter",
+        "address": "Patterødveien 2",
+        "city": "Moss",
+        "zipCode": "1599",
+        "addressLine": "Patterødveien 2",
+        "butikk": "Mosseporten Senter",
+        "shoppingCenter": "Mosseporten Senter",
+        "isShoppingCenter": true,
+        "storeCount": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.08290975,
+          59.27403313
+        ]
+      },
+      "properties": {
+        "id": "sc-3684",
+        "name": "AMFI Borg",
+        "address": "Klokkergårdveien 31",
+        "city": "Sarpsborg",
+        "zipCode": "1711",
+        "addressLine": "Klokkergårdveien 31",
+        "butikk": "AMFI Borg",
+        "shoppingCenter": "AMFI Borg",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.73576952,
+          58.97072712
+        ]
+      },
+      "properties": {
+        "id": "sc-3685",
+        "name": "Arkaden Stavanger",
+        "address": "Klubbgata 5",
+        "city": "Stavanger",
+        "zipCode": "4013",
+        "addressLine": "Klubbgata 5",
+        "butikk": "Arkaden Stavanger",
+        "shoppingCenter": "Arkaden Stavanger",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.08768299,
+          59.28784927
+        ]
+      },
+      "properties": {
+        "id": "sc-3686",
+        "name": "Stopp Kjøpesenter",
+        "address": "Lilletuneveien 2",
+        "city": "Sarpsborg",
+        "zipCode": "1711",
+        "addressLine": "Lilletuneveien 2",
+        "butikk": "Stopp Kjøpesenter",
+        "shoppingCenter": "Stopp Kjøpesenter",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.519475322,
+          59.89016357700001
+        ]
+      },
+      "properties": {
+        "id": "sc-3687",
+        "name": "Sandvika Storsenter",
+        "address": "Brodtkorbsgate 7",
+        "city": "Sandvika",
+        "zipCode": "1338",
+        "addressLine": "Brodtkorbsgate 7",
+        "butikk": "Sandvika Storsenter",
+        "shoppingCenter": "Sandvika Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4445337675,
+          63.4420391775
+        ]
+      },
+      "properties": {
+        "id": "sc-3688",
+        "name": "City Lade",
+        "address": "Haakon VII's gate 9",
+        "city": "Trondheim",
+        "zipCode": "7041",
+        "addressLine": "Haakon VII's gate 9",
+        "butikk": "City Lade",
+        "shoppingCenter": "City Lade",
+        "isShoppingCenter": true,
+        "storeCount": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.427426325454546,
+          63.425793876363635
+        ]
+      },
+      "properties": {
+        "id": "sc-3689",
+        "name": "Sirkus Shopping",
+        "address": "Falkenborgvegen 9",
+        "city": "Trondheim",
+        "zipCode": "7044",
+        "addressLine": "Falkenborgvegen 9",
+        "butikk": "Sirkus Shopping",
+        "shoppingCenter": "Sirkus Shopping",
+        "isShoppingCenter": true,
+        "storeCount": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.65182752857143,
+          59.668911477142856
+        ]
+      },
+      "properties": {
+        "id": "sc-3690",
+        "name": "Stortorvet Kongsberg",
+        "address": "Karsches gate 3",
+        "city": "Kongsberg",
+        "zipCode": "3611",
+        "addressLine": "Karsches gate 3",
+        "butikk": "Stortorvet Kongsberg",
+        "shoppingCenter": "Stortorvet Kongsberg",
+        "isShoppingCenter": true,
+        "storeCount": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.925812254545452,
+          69.67436209818182
+        ]
+      },
+      "properties": {
+        "id": "sc-3691",
+        "name": "Jekta Storsenter",
+        "address": "Heilovegen 4",
+        "city": "Tromsø",
+        "zipCode": "9015",
+        "addressLine": "Heilovegen 4",
+        "butikk": "Jekta Storsenter",
+        "shoppingCenter": "Jekta Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.781075559999999,
+          63.11047864
+        ]
+      },
+      "properties": {
+        "id": "sc-3692",
+        "name": "AMFI Futura",
+        "address": "Industriveien 17",
+        "city": "Kristiansund N",
+        "zipCode": "6517",
+        "addressLine": "Industriveien 17",
+        "butikk": "AMFI Futura",
+        "shoppingCenter": "AMFI Futura",
+        "isShoppingCenter": true,
+        "storeCount": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.32315898,
+          60.47040789
+        ]
+      },
+      "properties": {
+        "id": "sc-3693",
+        "name": "Horisont",
+        "address": "Myrdalsvegen 2",
+        "city": "Nyborg",
+        "zipCode": "5130",
+        "addressLine": "Myrdalsvegen 2",
+        "butikk": "Horisont",
+        "shoppingCenter": "Horisont",
+        "isShoppingCenter": true,
+        "storeCount": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.10571611875,
+          59.282345715000005
+        ]
+      },
+      "properties": {
+        "id": "sc-3694",
+        "name": "Storbyen Kjøpesenter",
+        "address": "Roald Amundsens gate 28",
+        "city": "Sarpsborg",
+        "zipCode": "1723",
+        "addressLine": "Roald Amundsens gate 28",
+        "butikk": "Storbyen Kjøpesenter",
+        "shoppingCenter": "Storbyen Kjøpesenter",
+        "isShoppingCenter": true,
+        "storeCount": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.73792671,
+          58.85162623
+        ]
+      },
+      "properties": {
+        "id": "sc-3695",
+        "name": "AMFI Vågen",
+        "address": "Vågsgata 33",
+        "city": "Sandnes",
+        "zipCode": "4306",
+        "addressLine": "Vågsgata 33",
+        "butikk": "AMFI Vågen",
+        "shoppingCenter": "AMFI Vågen",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.835963587,
+          59.716521031
+        ]
+      },
+      "properties": {
+        "id": "sc-3696",
+        "name": "Ski Storsenter",
+        "address": "Jernbanesvingen 6",
+        "city": "Ski",
+        "zipCode": "1400",
+        "addressLine": "Jernbanesvingen 6",
+        "butikk": "Ski Storsenter",
+        "shoppingCenter": "Ski Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.566988594,
+          62.673011394
+        ]
+      },
+      "properties": {
+        "id": "sc-3697",
+        "name": "Alti Sunndal",
+        "address": "Åkersgata 4",
+        "city": "Sunndalsøra",
+        "zipCode": "6600",
+        "addressLine": "Åkersgata 4",
+        "butikk": "Alti Sunndal",
+        "shoppingCenter": "Alti Sunndal",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.564111890000001,
+          60.88035670399999
+        ]
+      },
+      "properties": {
+        "id": "sc-3698",
+        "name": "Kremmertorget",
+        "address": "Torggata 3",
+        "city": "Elverum",
+        "zipCode": "2408",
+        "addressLine": "Torggata 3",
+        "butikk": "Kremmertorget",
+        "shoppingCenter": "Kremmertorget",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.95837081,
+          59.92756746
+        ]
+      },
+      "properties": {
+        "id": "sc-3699",
+        "name": "Metro",
+        "address": "Metro Senter Bibliotekgata 30",
+        "city": "Lørenskog",
+        "zipCode": "1473",
+        "addressLine": "Metro Senter Bibliotekgata 30",
+        "butikk": "Metro",
+        "shoppingCenter": "Metro",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.626291296000001,
+          58.77931345
+        ]
+      },
+      "properties": {
+        "id": "sc-3700",
+        "name": "Jærhagen",
+        "address": "Solavegen 25",
+        "city": "Kleppe",
+        "zipCode": "4351",
+        "addressLine": "Solavegen 25",
+        "butikk": "Jærhagen",
+        "shoppingCenter": "Jærhagen",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.49202284,
+          64.010823418125
+        ]
+      },
+      "properties": {
+        "id": "sc-3701",
+        "name": "AMFI Steinkjer",
+        "address": "Sjøfartsgata 6",
+        "city": "Steinkjer",
+        "zipCode": "7714",
+        "addressLine": "Sjøfartsgata 6",
+        "butikk": "AMFI Steinkjer",
+        "shoppingCenter": "AMFI Steinkjer",
+        "isShoppingCenter": true,
+        "storeCount": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.91124796,
+          63.44783053
+        ]
+      },
+      "properties": {
+        "id": "sc-3702",
+        "name": "Hell senteret",
+        "address": "Sandfærhus 24",
+        "city": "Stjørdal",
+        "zipCode": "7502",
+        "addressLine": "Sandfærhus 24",
+        "butikk": "Hell senteret",
+        "shoppingCenter": "Hell senteret",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.54001487,
+          61.771257215000006
+        ]
+      },
+      "properties": {
+        "id": "sc-3703",
+        "name": "AMFI Otta",
+        "address": "Johan Nygårds gate 11A",
+        "city": "Otta",
+        "zipCode": "2670",
+        "addressLine": "Johan Nygårds gate 11A",
+        "butikk": "AMFI Otta",
+        "shoppingCenter": "AMFI Otta",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.35422888,
+          60.31746345
+        ]
+      },
+      "properties": {
+        "id": "sc-3704",
+        "name": "AMFI Nesttun",
+        "address": "Østre Nesttunvegen 16",
+        "city": "Nesttun",
+        "zipCode": "5221",
+        "addressLine": "Østre Nesttunvegen 16",
+        "butikk": "AMFI Nesttun",
+        "shoppingCenter": "AMFI Nesttun",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.69110645,
+          58.98399993
+        ]
+      },
+      "properties": {
+        "id": "sc-3705",
+        "name": "Alti Tasta",
+        "address": "Tastatunet 1",
+        "city": "Stavanger",
+        "zipCode": "4027",
+        "addressLine": "Tastatunet 1",
+        "butikk": "Alti Tasta",
+        "shoppingCenter": "Alti Tasta",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.58804704,
+          59.91636634
+        ]
+      },
+      "properties": {
+        "id": "sc-3706",
+        "name": "Bekkestua Senter",
+        "address": "Gamle Ringeriksvei 34",
+        "city": "Bekkestua",
+        "zipCode": "1357",
+        "addressLine": "Gamle Ringeriksvei 34",
+        "butikk": "Bekkestua Senter",
+        "shoppingCenter": "Bekkestua Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.30788142,
+          59.37792906
+        ]
+      },
+      "properties": {
+        "id": "sc-3707",
+        "name": "Oasen Storsenter",
+        "address": "Austbøvegen 16",
+        "city": "Karmsund",
+        "zipCode": "5542",
+        "addressLine": "Austbøvegen 16",
+        "butikk": "Oasen Storsenter",
+        "shoppingCenter": "Oasen Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.131768877499999,
+          60.35796243
+        ]
+      },
+      "properties": {
+        "id": "sc-3708",
+        "name": "Sartor Senter",
+        "address": "Sartor Storsenter Sartorvegen 12",
+        "city": "Straume",
+        "zipCode": "5353",
+        "addressLine": "Sartor Storsenter Sartorvegen 12",
+        "butikk": "Sartor Senter",
+        "shoppingCenter": "Sartor Senter",
+        "isShoppingCenter": true,
+        "storeCount": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.007332829999998,
+          59.947286029999994
+        ]
+      },
+      "properties": {
+        "id": "sc-3709",
+        "name": "Strømmen Storsenter",
+        "address": "Støperiveien 5",
+        "city": "Strømmen",
+        "zipCode": "2010",
+        "addressLine": "Støperiveien 5",
+        "butikk": "Strømmen Storsenter",
+        "shoppingCenter": "Strømmen Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.04671992,
+          60.79870127
+        ]
+      },
+      "properties": {
+        "id": "sc-3710",
+        "name": "Maxi Storsenter",
+        "address": "Aslak Bolts gate 48",
+        "city": "Hamar",
+        "zipCode": "2316",
+        "addressLine": "Aslak Bolts gate 48",
+        "butikk": "Maxi Storsenter",
+        "shoppingCenter": "Maxi Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.98211566,
+          69.22933474
+        ]
+      },
+      "properties": {
+        "id": "sc-3711",
+        "name": "AMFI Kanebogen",
+        "address": "Storgata 17",
+        "city": "Finnsnes",
+        "zipCode": "9300",
+        "addressLine": "Storgata 17",
+        "butikk": "AMFI Kanebogen",
+        "shoppingCenter": "AMFI Kanebogen",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.49126136,
+          64.46753479750001
+        ]
+      },
+      "properties": {
+        "id": "sc-3712",
+        "name": "Namsos Storsenter",
+        "address": "Verftsgata 4",
+        "city": "Namsos",
+        "zipCode": "7800",
+        "addressLine": "Verftsgata 4",
+        "butikk": "Namsos Storsenter",
+        "shoppingCenter": "Namsos Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.224453337500002,
+          59.130779725
+        ]
+      },
+      "properties": {
+        "id": "sc-3713",
+        "name": "Hvaltorvet Kjøpesenter",
+        "address": "Torget 7",
+        "city": "Sandefjord",
+        "zipCode": "3210",
+        "addressLine": "Torget 7",
+        "butikk": "Hvaltorvet Kjøpesenter",
+        "shoppingCenter": "Hvaltorvet Kjøpesenter",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.775386999999998,
+          59.9468424
+        ]
+      },
+      "properties": {
+        "id": "sc-3714",
+        "name": "Storo Storsenter",
+        "address": "Vitaminveien 7",
+        "city": "Oslo",
+        "zipCode": "0485",
+        "addressLine": "Vitaminveien 7",
+        "butikk": "Storo Storsenter",
+        "shoppingCenter": "Storo Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.42265404,
+          67.27764958
+        ]
+      },
+      "properties": {
+        "id": "sc-3715",
+        "name": "City Nord",
+        "address": "Stormyrveien 20",
+        "city": "Bodø",
+        "zipCode": "8008",
+        "addressLine": "Stormyrveien 20",
+        "butikk": "City Nord",
+        "shoppingCenter": "City Nord",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.48524938,
+          63.791852229999996
+        ]
+      },
+      "properties": {
+        "id": "sc-3716",
+        "name": "AMFI Verdal",
+        "address": "c/o Amfisenteret Jernbanegata 11",
+        "city": "Verdal",
+        "zipCode": "7650",
+        "addressLine": "c/o Amfisenteret Jernbanegata 11",
+        "butikk": "AMFI Verdal",
+        "shoppingCenter": "AMFI Verdal",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.998801726888887,
+          59.756173846666655
+        ]
+      },
+      "properties": {
+        "id": "sc-3717",
+        "name": "Buskerud Storsenter",
+        "address": "Sandsgata 20",
+        "city": "Krokstadelva",
+        "zipCode": "3055",
+        "addressLine": "Sandsgata 20",
+        "butikk": "Buskerud Storsenter",
+        "shoppingCenter": "Buskerud Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.22243581,
+          59.741146353333335
+        ]
+      },
+      "properties": {
+        "id": "sc-3718",
+        "name": "CC Drammen",
+        "address": "Brandtenborggata 1",
+        "city": "Drammen",
+        "zipCode": "3012",
+        "addressLine": "Brandtenborggata 1",
+        "butikk": "CC Drammen",
+        "shoppingCenter": "CC Drammen",
+        "isShoppingCenter": true,
+        "storeCount": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.205845656,
+          59.74318358399999
+        ]
+      },
+      "properties": {
+        "id": "sc-3719",
+        "name": "Magasinet - Drammen",
+        "address": "Nedre Storgate 2",
+        "city": "Drammen",
+        "zipCode": "3015",
+        "addressLine": "Nedre Storgate 2",
+        "butikk": "Magasinet - Drammen",
+        "shoppingCenter": "Magasinet - Drammen",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.417176,
+          68.696167
+        ]
+      },
+      "properties": {
+        "id": "sc-3720",
+        "name": "Skibsgården Sortland",
+        "address": "Strandgata 12",
+        "city": "Sortland",
+        "zipCode": "8400",
+        "addressLine": "Strandgata 12",
+        "butikk": "Skibsgården Sortland",
+        "shoppingCenter": "Skibsgården Sortland",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3229291809090915,
+          60.46604247
+        ]
+      },
+      "properties": {
+        "id": "sc-3721",
+        "name": "Åsane Storsenter",
+        "address": "Åsane Senter 17",
+        "city": "Ulset",
+        "zipCode": "5116",
+        "addressLine": "Åsane Senter 17",
+        "butikk": "Åsane Storsenter",
+        "shoppingCenter": "Åsane Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.173369344,
+          60.14267839199999
+        ]
+      },
+      "properties": {
+        "id": "sc-3722",
+        "name": "Jessheim Storsenter",
+        "address": "c/o Jessheim Storsenter Storgata 6",
+        "city": "Jessheim",
+        "zipCode": "2050",
+        "addressLine": "c/o Jessheim Storsenter Storgata 6",
+        "butikk": "Jessheim Storsenter",
+        "shoppingCenter": "Jessheim Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.84525266,
+          63.29772823
+        ]
+      },
+      "properties": {
+        "id": "sc-3723",
+        "name": "AMFI Orkanger",
+        "address": "Orkdalsveien 113",
+        "city": "Orkanger",
+        "zipCode": "7300",
+        "addressLine": "Orkdalsveien 113",
+        "butikk": "AMFI Orkanger",
+        "shoppingCenter": "AMFI Orkanger",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75154397,
+          59.91260663999999
+        ]
+      },
+      "properties": {
+        "id": "sc-3724",
+        "name": "Oslo City",
+        "address": "Stenersgata 1",
+        "city": "Oslo",
+        "zipCode": "0050",
+        "addressLine": "Stenersgata 1",
+        "butikk": "Oslo City",
+        "shoppingCenter": "Oslo City",
+        "isShoppingCenter": true,
+        "storeCount": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.324772574166668,
+          60.39292788999999
+        ]
+      },
+      "properties": {
+        "id": "sc-3725",
+        "name": "Galleriet",
+        "address": "Torgallmenningen 8",
+        "city": "Bergen",
+        "zipCode": "5014",
+        "addressLine": "Torgallmenningen 8",
+        "butikk": "Galleriet",
+        "shoppingCenter": "Galleriet",
+        "isShoppingCenter": true,
+        "storeCount": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.602950183625003,
+          59.19650212833332
+        ]
+      },
+      "properties": {
+        "id": "sc-3726",
+        "name": "Herkules Storsenter",
+        "address": "Ulefossvegen 32",
+        "city": "Skien",
+        "zipCode": "3730",
+        "addressLine": "Ulefossvegen 32",
+        "butikk": "Herkules Storsenter",
+        "shoppingCenter": "Herkules Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0104349,
+          60.61136941
+        ]
+      },
+      "properties": {
+        "id": "sc-3727",
+        "name": "Flisa Stormarked",
+        "address": "c/o Flisa Stormarked Kaffegata 23",
+        "city": "Flisa",
+        "zipCode": "2270",
+        "addressLine": "c/o Flisa Stormarked Kaffegata 23",
+        "butikk": "Flisa Stormarked",
+        "shoppingCenter": "Flisa Stormarked",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.464440517500002,
+          59.45994595
+        ]
+      },
+      "properties": {
+        "id": "sc-3728",
+        "name": "Tuvensenteret",
+        "address": "Pindsleveien 1C",
+        "city": "Sandefjord",
+        "zipCode": "3221",
+        "addressLine": "Pindsleveien 1C",
+        "butikk": "Tuvensenteret",
+        "shoppingCenter": "Tuvensenteret",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.35906993,
+          60.35660491
+        ]
+      },
+      "properties": {
+        "id": "sc-3729",
+        "name": "Sletten Senter",
+        "address": "Vilhelm Bjerknes' vei 4-10",
+        "city": "Bergen",
+        "zipCode": "5081",
+        "addressLine": "Vilhelm Bjerknes' vei 4-10",
+        "butikk": "Sletten Senter",
+        "shoppingCenter": "Sletten Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.69363482,
+          60.799990689999994
+        ]
+      },
+      "properties": {
+        "id": "sc-3730",
+        "name": "CC Gjøvik",
+        "address": "Jernbanesvingen 6",
+        "city": "Gjøvik",
+        "zipCode": "2821",
+        "addressLine": "Jernbanesvingen 6",
+        "butikk": "CC Gjøvik",
+        "shoppingCenter": "CC Gjøvik",
+        "isShoppingCenter": true,
+        "storeCount": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.84189709,
+          59.91383566
+        ]
+      },
+      "properties": {
+        "id": "sc-3731",
+        "name": "Tveita Senter",
+        "address": "Tveita Senter Tvetenveien 150",
+        "city": "Oslo",
+        "zipCode": "0671",
+        "addressLine": "Tveita Senter Tvetenveien 150",
+        "butikk": "Tveita Senter",
+        "shoppingCenter": "Tveita Senter",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.25465572,
+          60.164750469999994
+        ]
+      },
+      "properties": {
+        "id": "sc-3732",
+        "name": "Kuben Hønefoss",
+        "address": "Kong Rings gate 1",
+        "city": "Hønefoss",
+        "zipCode": "3510",
+        "addressLine": "Kong Rings gate 1",
+        "butikk": "Kuben Hønefoss",
+        "shoppingCenter": "Kuben Hønefoss",
+        "isShoppingCenter": true,
+        "storeCount": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.993163409473684,
+          59.25101571947368
+        ]
+      },
+      "properties": {
+        "id": "sc-3733",
+        "name": "Østfoldhallene",
+        "address": "Dikeveien 28",
+        "city": "Rolvsøy",
+        "zipCode": "1661",
+        "addressLine": "Dikeveien 28",
+        "butikk": "Østfoldhallene",
+        "shoppingCenter": "Østfoldhallene",
+        "isShoppingCenter": true,
+        "storeCount": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.639640093333334,
+          58.66704932333334
+        ]
+      },
+      "properties": {
+        "id": "sc-3734",
+        "name": "AMFI Nærbø",
+        "address": "Torggata 2",
+        "city": "Nærbø",
+        "zipCode": "4365",
+        "addressLine": "Torggata 2",
+        "butikk": "AMFI Nærbø",
+        "shoppingCenter": "AMFI Nærbø",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.74709126,
+          58.474316210000005
+        ]
+      },
+      "properties": {
+        "id": "sc-3735",
+        "name": "Harebakken Senter",
+        "address": "Langsæveien 5",
+        "city": "Arendal",
+        "zipCode": "4846",
+        "addressLine": "Langsæveien 5",
+        "butikk": "Harebakken Senter",
+        "shoppingCenter": "Harebakken Senter",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9245235,
+          59.96214534
+        ]
+      },
+      "properties": {
+        "id": "sc-3736",
+        "name": "Stovner Senter",
+        "address": "Stovner Senter 3",
+        "city": "Oslo",
+        "zipCode": "0985",
+        "addressLine": "Stovner Senter 3",
+        "butikk": "Stovner Senter",
+        "shoppingCenter": "Stovner Senter",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.73294983,
+          63.11062601
+        ]
+      },
+      "properties": {
+        "id": "sc-3737",
+        "name": "AMFI Storkaia Brygge",
+        "address": "Arnulf Øverlands gate 2",
+        "city": "Kristiansund N",
+        "zipCode": "6509",
+        "addressLine": "Arnulf Øverlands gate 2",
+        "butikk": "AMFI Storkaia Brygge",
+        "shoppingCenter": "AMFI Storkaia Brygge",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.38145769,
+          59.12157762
+        ]
+      },
+      "properties": {
+        "id": "sc-3738",
+        "name": "Tista Senter",
+        "address": "Walkers gate 4",
+        "city": "Halden",
+        "zipCode": "1771",
+        "addressLine": "Walkers gate 4",
+        "butikk": "Tista Senter",
+        "shoppingCenter": "Tista Senter",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.330483342142856,
+          60.29651853571428
+        ]
+      },
+      "properties": {
+        "id": "sc-3739",
+        "name": "Lagunen Storsenter",
+        "address": "Laguneveien 13",
+        "city": "Rådal",
+        "zipCode": "5239",
+        "addressLine": "Laguneveien 13",
+        "butikk": "Lagunen Storsenter",
+        "shoppingCenter": "Lagunen Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.12368166,
+          62.20099055
+        ]
+      },
+      "properties": {
+        "id": "sc-3740",
+        "name": "AMFI Ørsta",
+        "address": "Vikegata 25",
+        "city": "Ørsta",
+        "zipCode": "6150",
+        "addressLine": "Vikegata 25",
+        "butikk": "AMFI Ørsta",
+        "shoppingCenter": "AMFI Ørsta",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1585577166666665,
+          62.47239698499999
+        ]
+      },
+      "properties": {
+        "id": "sc-3741",
+        "name": "Ålesund Storsenter",
+        "address": "Rasmus Rønnebergs gate 21",
+        "city": "Ålesund",
+        "zipCode": "6002",
+        "addressLine": "Rasmus Rønnebergs gate 21",
+        "butikk": "Ålesund Storsenter",
+        "shoppingCenter": "Ålesund Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.71218104,
+          62.96972852
+        ]
+      },
+      "properties": {
+        "id": "sc-3742",
+        "name": "AMFI Surnadal",
+        "address": "Øravegen 4",
+        "city": "Surnadal",
+        "zipCode": "6650",
+        "addressLine": "Øravegen 4",
+        "butikk": "AMFI Surnadal",
+        "shoppingCenter": "AMFI Surnadal",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2026564175,
+          59.745625695
+        ]
+      },
+      "properties": {
+        "id": "sc-3743",
+        "name": "Torget Vest",
+        "address": "Rådhusgata 2",
+        "city": "Drammen",
+        "zipCode": "3016",
+        "addressLine": "Rådhusgata 2",
+        "butikk": "Torget Vest",
+        "shoppingCenter": "Torget Vest",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.158546450769231,
+          59.742359488461524
+        ]
+      },
+      "properties": {
+        "id": "sc-3744",
+        "name": "Gulskogen Senter",
+        "address": "Professor Smiths alle 56",
+        "city": "Drammen",
+        "zipCode": "3048",
+        "addressLine": "Professor Smiths alle 56",
+        "butikk": "Gulskogen Senter",
+        "shoppingCenter": "Gulskogen Senter",
+        "isShoppingCenter": true,
+        "storeCount": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.15895888,
+          62.73691112
+        ]
+      },
+      "properties": {
+        "id": "sc-3745",
+        "name": "Moldetorget",
+        "address": "Torget 1",
+        "city": "Molde",
+        "zipCode": "6413",
+        "addressLine": "Torget 1",
+        "butikk": "Moldetorget",
+        "shoppingCenter": "Moldetorget",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.43419665,
+          59.83668167
+        ]
+      },
+      "properties": {
+        "id": "sc-3746",
+        "name": "Trekanten",
+        "address": "Knud Askers vei 26A",
+        "city": "Asker",
+        "zipCode": "1383",
+        "addressLine": "Knud Askers vei 26A",
+        "butikk": "Trekanten",
+        "shoppingCenter": "Trekanten",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.178622866,
+          62.73918423799999
+        ]
+      },
+      "properties": {
+        "id": "sc-3747",
+        "name": "AMFI Roseby",
+        "address": "Lingedalsveien 6-10",
+        "city": "Molde",
+        "zipCode": "6415",
+        "addressLine": "Lingedalsveien 6-10",
+        "butikk": "AMFI Roseby",
+        "shoppingCenter": "AMFI Roseby",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.50414757,
+          64.46741473
+        ]
+      },
+      "properties": {
+        "id": "sc-3748",
+        "name": "AMFI Namsos",
+        "address": "Søren R Thornæs veg 19",
+        "city": "Namsos",
+        "zipCode": "7800",
+        "addressLine": "Søren R Thornæs veg 19",
+        "butikk": "AMFI Namsos",
+        "shoppingCenter": "AMFI Namsos",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.379074850666665,
+          63.36239816000001
+        ]
+      },
+      "properties": {
+        "id": "sc-3749",
+        "name": "City Syd",
+        "address": "Østre Rosten 28",
+        "city": "Tiller",
+        "zipCode": "7075",
+        "addressLine": "Østre Rosten 28",
+        "butikk": "City Syd",
+        "shoppingCenter": "City Syd",
+        "isShoppingCenter": true,
+        "storeCount": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9962945825,
+          60.191249309999996
+        ]
+      },
+      "properties": {
+        "id": "sc-3750",
+        "name": "Kongssenteret",
+        "address": "c/o Kongssenteret Tommelstads gate 1",
+        "city": "Kongsvinger",
+        "zipCode": "2212",
+        "addressLine": "c/o Kongssenteret Tommelstads gate 1",
+        "butikk": "Kongssenteret",
+        "shoppingCenter": "Kongssenteret",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4125445325,
+          63.43495415500001
+        ]
+      },
+      "properties": {
+        "id": "sc-3751",
+        "name": "Solsiden",
+        "address": "Beddingen 2-4",
+        "city": "Trondheim",
+        "zipCode": "7042",
+        "addressLine": "Beddingen 2-4",
+        "butikk": "Solsiden",
+        "shoppingCenter": "Solsiden",
+        "isShoppingCenter": true,
+        "storeCount": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6360473,
+          59.91740458
+        ]
+      },
+      "properties": {
+        "id": "sc-3752",
+        "name": "CC Vest",
+        "address": "Lilleakerveien 16",
+        "city": "Oslo",
+        "zipCode": "0283",
+        "addressLine": "Lilleakerveien 16",
+        "butikk": "CC Vest",
+        "shoppingCenter": "CC Vest",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.56259617,
+          60.88512506
+        ]
+      },
+      "properties": {
+        "id": "sc-3753",
+        "name": "AMFI Elverum",
+        "address": "Torggata 1",
+        "city": "Elverum",
+        "zipCode": "2408",
+        "addressLine": "Torggata 1",
+        "butikk": "AMFI Elverum",
+        "shoppingCenter": "AMFI Elverum",
+        "isShoppingCenter": true,
+        "storeCount": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.66151552,
+          63.69234177
+        ]
+      },
+      "properties": {
+        "id": "sc-3754",
+        "name": "Libra kjøpesenter",
+        "address": "Maren Juels gate 1",
+        "city": "Brekstad",
+        "zipCode": "7130",
+        "addressLine": "Maren Juels gate 1",
+        "butikk": "Libra kjøpesenter",
+        "shoppingCenter": "Libra kjøpesenter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.500082333333334,
+          59.779324693333336
+        ]
+      },
+      "properties": {
+        "id": "sc-3755",
+        "name": "AMFI Stord",
+        "address": "Borggata 9",
+        "city": "Stord",
+        "zipCode": "5417",
+        "addressLine": "Borggata 9",
+        "butikk": "AMFI Stord",
+        "shoppingCenter": "AMFI Stord",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.82118668,
+          59.90341797
+        ]
+      },
+      "properties": {
+        "id": "sc-3756",
+        "name": "Bryn Senter",
+        "address": "Østensjøveien 79",
+        "city": "Oslo",
+        "zipCode": "0667",
+        "addressLine": "Østensjøveien 79",
+        "butikk": "Bryn Senter",
+        "shoppingCenter": "Bryn Senter",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.331814479999999,
+          60.38923732
+        ]
+      },
+      "properties": {
+        "id": "sc-3757",
+        "name": "Bergen Storsenter",
+        "address": "Strømgaten 8",
+        "city": "Bergen",
+        "zipCode": "5015",
+        "addressLine": "Strømgaten 8",
+        "butikk": "Bergen Storsenter",
+        "shoppingCenter": "Bergen Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.33473429,
+          59.39740436
+        ]
+      },
+      "properties": {
+        "id": "sc-3758",
+        "name": "Bergsenteret",
+        "address": "Longhammarvegen 36",
+        "city": "Haugesund",
+        "zipCode": "5536",
+        "addressLine": "Longhammarvegen 36",
+        "butikk": "Bergsenteret",
+        "shoppingCenter": "Bergsenteret",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.92426802,
+          63.46877159
+        ]
+      },
+      "properties": {
+        "id": "sc-3759",
+        "name": "Torgkvartalet",
+        "address": "Togkvartalet Stokmovegen 2",
+        "city": "Stjørdal",
+        "zipCode": "7500",
+        "addressLine": "Togkvartalet Stokmovegen 2",
+        "butikk": "Torgkvartalet",
+        "shoppingCenter": "Torgkvartalet",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.850582290000001,
+          61.45226184999999
+        ]
+      },
+      "properties": {
+        "id": "sc-3760",
+        "name": "AMFI Førde",
+        "address": "Storehagen 9",
+        "city": "Førde",
+        "zipCode": "6800",
+        "addressLine": "Storehagen 9",
+        "butikk": "AMFI Førde",
+        "shoppingCenter": "AMFI Førde",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.04764706,
+          59.06881123000001
+        ]
+      },
+      "properties": {
+        "id": "sc-3761",
+        "name": "Nordbyen Kjøpesenter",
+        "address": "Yttersøveien 2",
+        "city": "Larvik",
+        "zipCode": "3274",
+        "addressLine": "Yttersøveien 2",
+        "butikk": "Nordbyen Kjøpesenter",
+        "shoppingCenter": "Nordbyen Kjøpesenter",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.636794572500001,
+          59.14659398125001
+        ]
+      },
+      "properties": {
+        "id": "sc-3762",
+        "name": "Down Town",
+        "address": "Bruene 1",
+        "city": "Skien",
+        "zipCode": "3724",
+        "addressLine": "Bruene 1",
+        "butikk": "Down Town",
+        "shoppingCenter": "Down Town",
+        "isShoppingCenter": true,
+        "storeCount": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.769715503333336,
+          59.73944967333333
+        ]
+      },
+      "properties": {
+        "id": "sc-3763",
+        "name": "Vinterbro Senter",
+        "address": "Sjøskogenveien 7",
+        "city": "Vinterbro",
+        "zipCode": "1407",
+        "addressLine": "Sjøskogenveien 7",
+        "butikk": "Vinterbro Senter",
+        "shoppingCenter": "Vinterbro Senter",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.68251043,
+          70.66365896
+        ]
+      },
+      "properties": {
+        "id": "sc-3764",
+        "name": "Nissen Hammerfest Senter",
+        "address": "Sjøgata 6",
+        "city": "Hammerfest",
+        "zipCode": "9600",
+        "addressLine": "Sjøgata 6",
+        "butikk": "Nissen Hammerfest Senter",
+        "shoppingCenter": "Nissen Hammerfest Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.130213799,
+          58.179241788
+        ]
+      },
+      "properties": {
+        "id": "sc-3765",
+        "name": "Sørlandssenteret",
+        "address": "Barstølveien 58",
+        "city": "Kristiansand S",
+        "zipCode": "4636",
+        "addressLine": "Barstølveien 58",
+        "butikk": "Sørlandssenteret",
+        "shoppingCenter": "Sørlandssenteret",
+        "isShoppingCenter": true,
+        "storeCount": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.39094648,
+          63.429211012307704
+        ]
+      },
+      "properties": {
+        "id": "sc-3766",
+        "name": "Trondheim Torg",
+        "address": "Kongens gate 9",
+        "city": "Trondheim",
+        "zipCode": "7013",
+        "addressLine": "Kongens gate 9",
+        "butikk": "Trondheim Torg",
+        "shoppingCenter": "Trondheim Torg",
+        "isShoppingCenter": true,
+        "storeCount": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75291522,
+          59.9141624
+        ]
+      },
+      "properties": {
+        "id": "sc-3767",
+        "name": "Gunerius",
+        "address": "Storgata 32",
+        "city": "Oslo",
+        "zipCode": "0184",
+        "addressLine": "Storgata 32",
+        "butikk": "Gunerius",
+        "shoppingCenter": "Gunerius",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.350435490999999,
+          62.46583409500001
+        ]
+      },
+      "properties": {
+        "id": "sc-3768",
+        "name": "AMFI Moa",
+        "address": "Langelandsvegen 51",
+        "city": "Ålesund",
+        "zipCode": "6010",
+        "addressLine": "Langelandsvegen 51",
+        "butikk": "AMFI Moa",
+        "shoppingCenter": "AMFI Moa",
+        "isShoppingCenter": true,
+        "storeCount": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.83547294,
+          59.9432415
+        ]
+      },
+      "properties": {
+        "id": "sc-3769",
+        "name": "Linderud Senter",
+        "address": "Erich Mogensøns vei 38",
+        "city": "Oslo",
+        "zipCode": "0594",
+        "addressLine": "Erich Mogensøns vei 38",
+        "butikk": "Linderud Senter",
+        "shoppingCenter": "Linderud Senter",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.68249754,
+          59.41606749
+        ]
+      },
+      "properties": {
+        "id": "sc-3770",
+        "name": "Rygge Storsenter",
+        "address": "Carlbergveien 2",
+        "city": "Moss",
+        "zipCode": "1526",
+        "addressLine": "Carlbergveien 2",
+        "butikk": "Rygge Storsenter",
+        "shoppingCenter": "Rygge Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.74318601,
+          59.60398575
+        ]
+      },
+      "properties": {
+        "id": "sc-3771",
+        "name": "Vestby Storsenter",
+        "address": "Senterveien 8",
+        "city": "Vestby",
+        "zipCode": "1543",
+        "addressLine": "Senterveien 8",
+        "butikk": "Vestby Storsenter",
+        "shoppingCenter": "Vestby Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.289774904444446,
+          60.34919222
+        ]
+      },
+      "properties": {
+        "id": "sc-3772",
+        "name": "Oasen",
+        "address": "Krokatjønnveien 11A",
+        "city": "Fyllingsdalen",
+        "zipCode": "5147",
+        "addressLine": "Krokatjønnveien 11A",
+        "butikk": "Oasen",
+        "shoppingCenter": "Oasen",
+        "isShoppingCenter": true,
+        "storeCount": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.48593107,
+          59.415435165
+        ]
+      },
+      "properties": {
+        "id": "sc-3773",
+        "name": "Sjøsiden Senter Horten",
+        "address": "Vognmannsgata 5",
+        "city": "Horten",
+        "zipCode": "3187",
+        "addressLine": "Vognmannsgata 5",
+        "butikk": "Sjøsiden Senter Horten",
+        "shoppingCenter": "Sjøsiden Senter Horten",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2081089480000005,
+          60.420105744
+        ]
+      },
+      "properties": {
+        "id": "sc-3774",
+        "name": "AMFI Askøy",
+        "address": "Kleppevegen 110",
+        "city": "Kleppestø",
+        "zipCode": "5308",
+        "addressLine": "Kleppevegen 110",
+        "butikk": "AMFI Askøy",
+        "shoppingCenter": "AMFI Askøy",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.30584041,
+          59.81129164
+        ]
+      },
+      "properties": {
+        "id": "sc-3775",
+        "name": "Liertoppen Kjøpesenter",
+        "address": "Drammensveien 201",
+        "city": "Lierskogen",
+        "zipCode": "3420",
+        "addressLine": "Drammensveien 201",
+        "butikk": "Liertoppen Kjøpesenter",
+        "shoppingCenter": "Liertoppen Kjøpesenter",
+        "isShoppingCenter": true,
+        "storeCount": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.82919538,
+          59.84841977
+        ]
+      },
+      "properties": {
+        "id": "sc-3776",
+        "name": "Senter Syd Mortensrud",
+        "address": "Senter Syd Mortensrud Lofsrudveien 6",
+        "city": "Oslo",
+        "zipCode": "1281",
+        "addressLine": "Senter Syd Mortensrud Lofsrudveien 6",
+        "butikk": "Senter Syd Mortensrud",
+        "shoppingCenter": "Senter Syd Mortensrud",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.32197005,
+          60.39309963
+        ]
+      },
+      "properties": {
+        "id": "sc-3777",
+        "name": "Kløverhuset",
+        "address": "Christian Michelsens gate 6B",
+        "city": "Bergen",
+        "zipCode": "5012",
+        "addressLine": "Christian Michelsens gate 6B",
+        "butikk": "Kløverhuset",
+        "shoppingCenter": "Kløverhuset",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.27805742,
+          59.57809187
+        ]
+      },
+      "properties": {
+        "id": "sc-3778",
+        "name": "Morenen Kjøpesenter",
+        "address": "Morstongveien 29",
+        "city": "Slitu",
+        "zipCode": "1859",
+        "addressLine": "Morstongveien 29",
+        "butikk": "Morenen Kjøpesenter",
+        "shoppingCenter": "Morenen Kjøpesenter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6081984,
+          59.20713174
+        ]
+      },
+      "properties": {
+        "id": "sc-3779",
+        "name": "Arkaden Skien Storsenter",
+        "address": "Bruene 1",
+        "city": "Skien",
+        "zipCode": "3724",
+        "addressLine": "Bruene 1",
+        "butikk": "Arkaden Skien Storsenter",
+        "shoppingCenter": "Arkaden Skien Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.03791357,
+          61.60104879
+        ]
+      },
+      "properties": {
+        "id": "sc-3780",
+        "name": "AMFI Florø",
+        "address": "Hestenesgata 4",
+        "city": "Florø",
+        "zipCode": "6900",
+        "addressLine": "Hestenesgata 4",
+        "butikk": "AMFI Florø",
+        "shoppingCenter": "AMFI Florø",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.95527544,
+          63.58203007
+        ]
+      },
+      "properties": {
+        "id": "sc-3781",
+        "name": "Norheim Senter",
+        "address": "Rådhusveien 21",
+        "city": "Rissa",
+        "zipCode": "7100",
+        "addressLine": "Rådhusveien 21",
+        "butikk": "Norheim Senter",
+        "shoppingCenter": "Norheim Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.94308413,
+          60.88451679
+        ]
+      },
+      "properties": {
+        "id": "sc-3782",
+        "name": "Mølla Storsenter",
+        "address": "Brugata 16",
+        "city": "Brumunddal",
+        "zipCode": "2380",
+        "addressLine": "Brugata 16",
+        "butikk": "Mølla Storsenter",
+        "shoppingCenter": "Mølla Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0708348,
+          59.41131663
+        ]
+      },
+      "properties": {
+        "id": "sc-3783",
+        "name": "Bøsenteret",
+        "address": "Stasjonsvegen 28",
+        "city": "Bø i Telemark",
+        "zipCode": "3800",
+        "addressLine": "Stasjonsvegen 28",
+        "butikk": "Bøsenteret",
+        "shoppingCenter": "Bøsenteret",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.27370411,
+          59.41093681
+        ]
+      },
+      "properties": {
+        "id": "sc-3784",
+        "name": "Markedet Haugesund",
+        "address": "Skåregata 92",
+        "city": "Haugesund",
+        "zipCode": "5528",
+        "addressLine": "Skåregata 92",
+        "butikk": "Markedet Haugesund",
+        "shoppingCenter": "Markedet Haugesund",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.434492603333333,
+          60.628924299999994
+        ]
+      },
+      "properties": {
+        "id": "sc-3785",
+        "name": "AMFI Voss",
+        "address": "Hardangervegen 23",
+        "city": "Voss",
+        "zipCode": "5705",
+        "addressLine": "Hardangervegen 23",
+        "butikk": "AMFI Voss",
+        "shoppingCenter": "AMFI Voss",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.55905828,
+          68.23329326
+        ]
+      },
+      "properties": {
+        "id": "sc-3786",
+        "name": "Alti Svolvær",
+        "address": "Lofotgata 33",
+        "city": "Svolvær",
+        "zipCode": "8300",
+        "addressLine": "Lofotgata 33",
+        "butikk": "Alti Svolvær",
+        "shoppingCenter": "Alti Svolvær",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.375261663333335,
+          63.35798134
+        ]
+      },
+      "properties": {
+        "id": "sc-3787",
+        "name": "Tiller Torget",
+        "address": "Ivar Lykkes veg 3",
+        "city": "Tiller",
+        "zipCode": "7075",
+        "addressLine": "Ivar Lykkes veg 3",
+        "butikk": "Tiller Torget",
+        "shoppingCenter": "Tiller Torget",
+        "isShoppingCenter": true,
+        "storeCount": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9535232,
+          59.91861505
+        ]
+      },
+      "properties": {
+        "id": "sc-3788",
+        "name": "Triaden Lørenskog Storsenter",
+        "address": "Gamleveien 88",
+        "city": "Lørenskog",
+        "zipCode": "1461",
+        "addressLine": "Gamleveien 88",
+        "butikk": "Triaden Lørenskog Storsenter",
+        "shoppingCenter": "Triaden Lørenskog Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1859908595,
+          61.431131500000006
+        ]
+      },
+      "properties": {
+        "id": "sc-3789",
+        "name": "AMFI Sogningen",
+        "address": "c/o Jannicke Hovland Vigdal Haugåsen 3",
+        "city": "Jostedal",
+        "zipCode": "6871",
+        "addressLine": "c/o Jannicke Hovland Vigdal Haugåsen 3",
+        "butikk": "AMFI Sogningen",
+        "shoppingCenter": "AMFI Sogningen",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.75600333,
+          59.86209742
+        ]
+      },
+      "properties": {
+        "id": "sc-3790",
+        "name": "Husnes Storsenter",
+        "address": "Sentrumsvegen 15",
+        "city": "Husnes",
+        "zipCode": "5460",
+        "addressLine": "Sentrumsvegen 15",
+        "butikk": "Husnes Storsenter",
+        "shoppingCenter": "Husnes Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.15515746,
+          60.178622485
+        ]
+      },
+      "properties": {
+        "id": "sc-3791",
+        "name": "Romeriksenteret",
+        "address": "Gladbakkvegen 1",
+        "city": "Råholt",
+        "zipCode": "2070",
+        "addressLine": "Gladbakkvegen 1",
+        "butikk": "Romeriksenteret",
+        "shoppingCenter": "Romeriksenteret",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.65853691,
+          59.67278411
+        ]
+      },
+      "properties": {
+        "id": "sc-3792",
+        "name": "AMFI Drøbak City",
+        "address": "Holterveien 3",
+        "city": "Drøbak",
+        "zipCode": "1448",
+        "addressLine": "Holterveien 3",
+        "butikk": "AMFI Drøbak City",
+        "shoppingCenter": "AMFI Drøbak City",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.04873239,
+          59.95602645
+        ]
+      },
+      "properties": {
+        "id": "sc-3793",
+        "name": "Lillestrøm Torv",
+        "address": "Torvet 6",
+        "city": "Lillestrøm",
+        "zipCode": "2000",
+        "addressLine": "Torvet 6",
+        "butikk": "Lillestrøm Torv",
+        "shoppingCenter": "Lillestrøm Torv",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.70185549,
+          58.8957699
+        ]
+      },
+      "properties": {
+        "id": "sc-3794",
+        "name": "Tvedtsenteret",
+        "address": "Lagerveien 2",
+        "city": "Stavanger",
+        "zipCode": "4033",
+        "addressLine": "Lagerveien 2",
+        "butikk": "Tvedtsenteret",
+        "shoppingCenter": "Tvedtsenteret",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081387022352942,
+          60.79615815117648
+        ]
+      },
+      "properties": {
+        "id": "sc-3795",
+        "name": "CC Hamar",
+        "address": "Vangsvegen 62",
+        "city": "Hamar",
+        "zipCode": "2317",
+        "addressLine": "Vangsvegen 62",
+        "butikk": "CC Hamar",
+        "shoppingCenter": "CC Hamar",
+        "isShoppingCenter": true,
+        "storeCount": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.74731904,
+          58.4545128
+        ]
+      },
+      "properties": {
+        "id": "sc-3796",
+        "name": "Maxis Senter",
+        "address": "Vesterveien 44",
+        "city": "Arendal",
+        "zipCode": "4839",
+        "addressLine": "Vesterveien 44",
+        "butikk": "Maxis Senter",
+        "shoppingCenter": "Maxis Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.452051695714285,
+          61.114427088571425
+        ]
+      },
+      "properties": {
+        "id": "sc-3797",
+        "name": "Strandtorget",
+        "address": "Strandpromenaden 85",
+        "city": "Lillehammer",
+        "zipCode": "2609",
+        "addressLine": "Strandpromenaden 85",
+        "butikk": "Strandtorget",
+        "shoppingCenter": "Strandtorget",
+        "isShoppingCenter": true,
+        "storeCount": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.66082465,
+          59.85592278
+        ]
+      },
+      "properties": {
+        "id": "sc-3798",
+        "name": "Tangen Senter",
+        "address": "Vestveien 51",
+        "city": "Nesoddtangen",
+        "zipCode": "1452",
+        "addressLine": "Vestveien 51",
+        "butikk": "Tangen Senter",
+        "shoppingCenter": "Tangen Senter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.74081194,
+          58.94815337
+        ]
+      },
+      "properties": {
+        "id": "sc-3799",
+        "name": "Kilden",
+        "address": "Gartnerveien 15",
+        "city": "Stavanger",
+        "zipCode": "4016",
+        "addressLine": "Gartnerveien 15",
+        "butikk": "Kilden",
+        "shoppingCenter": "Kilden",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.61434138,
+          60.72893785
+        ]
+      },
+      "properties": {
+        "id": "sc-3800",
+        "name": "AMFI Raufoss",
+        "address": "Storgata 49",
+        "city": "Raufoss",
+        "zipCode": "2830",
+        "addressLine": "Storgata 49",
+        "butikk": "AMFI Raufoss",
+        "shoppingCenter": "AMFI Raufoss",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.76346154,
+          58.45949214
+        ]
+      },
+      "properties": {
+        "id": "sc-3801",
+        "name": "AMFI Arena",
+        "address": "Vesterveien 4",
+        "city": "Arendal",
+        "zipCode": "4836",
+        "addressLine": "Vesterveien 4",
+        "butikk": "AMFI Arena",
+        "shoppingCenter": "AMFI Arena",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.42285948,
+          68.43820972
+        ]
+      },
+      "properties": {
+        "id": "sc-3802",
+        "name": "AMFI Narvik",
+        "address": "Bolagsgata 1",
+        "city": "Narvik",
+        "zipCode": "8514",
+        "addressLine": "Bolagsgata 1",
+        "butikk": "AMFI Narvik",
+        "shoppingCenter": "AMFI Narvik",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.28206055,
+          63.732472252
+        ]
+      },
+      "properties": {
+        "id": "sc-3803",
+        "name": "Magneten",
+        "address": "Moafjæra 14",
+        "city": "Levanger",
+        "zipCode": "7606",
+        "addressLine": "Moafjæra 14",
+        "butikk": "Magneten",
+        "shoppingCenter": "Magneten",
+        "isShoppingCenter": true,
+        "storeCount": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.98535639,
+          61.90861282
+        ]
+      },
+      "properties": {
+        "id": "sc-3804",
+        "name": "Alti Nordfjord",
+        "address": "Sjøgata 21",
+        "city": "Nordfjordeid",
+        "zipCode": "6770",
+        "addressLine": "Sjøgata 21",
+        "butikk": "Alti Nordfjord",
+        "shoppingCenter": "Alti Nordfjord",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.81286081,
+          59.89729008
+        ]
+      },
+      "properties": {
+        "id": "sc-3805",
+        "name": "Manglerud Senter",
+        "address": "Plogveien 6",
+        "city": "Oslo",
+        "zipCode": "0679",
+        "addressLine": "Plogveien 6",
+        "butikk": "Manglerud Senter",
+        "shoppingCenter": "Manglerud Senter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.90426468,
+          59.76173495
+        ]
+      },
+      "properties": {
+        "id": "sc-3806",
+        "name": "Eiker Senter",
+        "address": "Prestebråtan 6",
+        "city": "Hokksund",
+        "zipCode": "3300",
+        "addressLine": "Prestebråtan 6",
+        "butikk": "Eiker Senter",
+        "shoppingCenter": "Eiker Senter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.97086186,
+          69.63996232
+        ]
+      },
+      "properties": {
+        "id": "sc-3807",
+        "name": "AMFI Pyramiden",
+        "address": "Solstrandvegen 47",
+        "city": "Tromsdalen",
+        "zipCode": "9020",
+        "addressLine": "Solstrandvegen 47",
+        "butikk": "AMFI Pyramiden",
+        "shoppingCenter": "AMFI Pyramiden",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.285863506666666,
+          60.547405663333336
+        ]
+      },
+      "properties": {
+        "id": "sc-3808",
+        "name": "Knarvik Senter",
+        "address": "Kvernhusmyrane 25",
+        "city": "Isdalstø",
+        "zipCode": "5914",
+        "addressLine": "Kvernhusmyrane 25",
+        "butikk": "Knarvik Senter",
+        "shoppingCenter": "Knarvik Senter",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.35189066,
+          63.41799998
+        ]
+      },
+      "properties": {
+        "id": "sc-3809",
+        "name": "Byåsen Butikksenter",
+        "address": "Fjellseterveien 1",
+        "city": "Trondheim",
+        "zipCode": "7020",
+        "addressLine": "Fjellseterveien 1",
+        "butikk": "Byåsen Butikksenter",
+        "shoppingCenter": "Byåsen Butikksenter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.60498139,
+          59.21040691
+        ]
+      },
+      "properties": {
+        "id": "sc-3810",
+        "name": "Lietorvet",
+        "address": "Liegata 10",
+        "city": "Skien",
+        "zipCode": "3717",
+        "addressLine": "Liegata 10",
+        "butikk": "Lietorvet",
+        "shoppingCenter": "Lietorvet",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.02852465,
+          59.05343602
+        ]
+      },
+      "properties": {
+        "id": "sc-3811",
+        "name": "AMFI Larvik",
+        "address": "Nansetgata 6",
+        "city": "Larvik",
+        "zipCode": "3256",
+        "addressLine": "Nansetgata 6",
+        "butikk": "AMFI Larvik",
+        "shoppingCenter": "AMFI Larvik",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.54563531,
+          68.79898703
+        ]
+      },
+      "properties": {
+        "id": "sc-3812",
+        "name": "Bertheustorget",
+        "address": "Fjordgata 1",
+        "city": "Harstad",
+        "zipCode": "9405",
+        "addressLine": "Fjordgata 1",
+        "butikk": "Bertheustorget",
+        "shoppingCenter": "Bertheustorget",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.16363157,
+          59.58319736
+        ]
+      },
+      "properties": {
+        "id": "sc-3813",
+        "name": "Askimtorget",
+        "address": "Eidsbergveien 5",
+        "city": "Askim",
+        "zipCode": "1830",
+        "addressLine": "Eidsbergveien 5",
+        "butikk": "Askimtorget",
+        "shoppingCenter": "Askimtorget",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.680874984999999,
+          58.952529782499994
+        ]
+      },
+      "properties": {
+        "id": "sc-3814",
+        "name": "AMFI Madla",
+        "address": "Madlakrossen 5",
+        "city": "Hafrsfjord",
+        "zipCode": "4042",
+        "addressLine": "Madlakrossen 5",
+        "butikk": "AMFI Madla",
+        "shoppingCenter": "AMFI Madla",
+        "isShoppingCenter": true,
+        "storeCount": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.89774655,
+          59.94215408
+        ]
+      },
+      "properties": {
+        "id": "sc-3815",
+        "name": "Furuset Senter",
+        "address": "Trygve Lies plass 1",
+        "city": "Oslo",
+        "zipCode": "1051",
+        "addressLine": "Trygve Lies plass 1",
+        "butikk": "Furuset Senter",
+        "shoppingCenter": "Furuset Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.28645429,
+          60.38933527
+        ]
+      },
+      "properties": {
+        "id": "sc-3816",
+        "name": "Laksevåg Senter",
+        "address": "Kringsjåveien 83-89",
+        "city": "Laksevåg",
+        "zipCode": "5163",
+        "addressLine": "Kringsjåveien 83-89",
+        "butikk": "Laksevåg Senter",
+        "shoppingCenter": "Laksevåg Senter",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.37547626,
+          63.357938095
+        ]
+      },
+      "properties": {
+        "id": "sc-3817",
+        "name": "StorM-senteret",
+        "address": "Ivar Lykkes veg 5",
+        "city": "Tiller",
+        "zipCode": "7075",
+        "addressLine": "Ivar Lykkes veg 5",
+        "butikk": "StorM-senteret",
+        "shoppingCenter": "StorM-senteret",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.46137665,
+          59.76497576
+        ]
+      },
+      "properties": {
+        "id": "sc-3818",
+        "name": "Heiane Storsenter",
+        "address": "Ringvegen 44",
+        "city": "Stord",
+        "zipCode": "5412",
+        "addressLine": "Ringvegen 44",
+        "butikk": "Heiane Storsenter",
+        "shoppingCenter": "Heiane Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.46084045,
+          58.02904093
+        ]
+      },
+      "properties": {
+        "id": "sc-3819",
+        "name": "AMFI Mandal",
+        "address": "Skarvøyveien 55",
+        "city": "Mandal",
+        "zipCode": "4517",
+        "addressLine": "Skarvøyveien 55",
+        "butikk": "AMFI Mandal",
+        "shoppingCenter": "AMFI Mandal",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.73965241,
+          58.84822783
+        ]
+      },
+      "properties": {
+        "id": "sc-3820",
+        "name": "Maxi Sandnes",
+        "address": "Gravarsveien 7",
+        "city": "Sandnes",
+        "zipCode": "4306",
+        "addressLine": "Gravarsveien 7",
+        "butikk": "Maxi Sandnes",
+        "shoppingCenter": "Maxi Sandnes",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.73576952,
+          58.97072712
+        ]
+      },
+      "properties": {
+        "id": "sc-3821",
+        "name": "Stavanger Storsenter",
+        "address": "Klubbgata 5",
+        "city": "Stavanger",
+        "zipCode": "4013",
+        "addressLine": "Klubbgata 5",
+        "butikk": "Stavanger Storsenter",
+        "shoppingCenter": "Stavanger Storsenter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.95329381,
+          58.12483643
+        ]
+      },
+      "properties": {
+        "id": "sc-3822",
+        "name": "AMFI Vågsbygd",
+        "address": "Kirsten Flagstads vei 32",
+        "city": "Kristiansand S",
+        "zipCode": "4621",
+        "addressLine": "Kirsten Flagstads vei 32",
+        "butikk": "AMFI Vågsbygd",
+        "shoppingCenter": "AMFI Vågsbygd",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.64012452,
+          58.73559721
+        ]
+      },
+      "properties": {
+        "id": "sc-3823",
+        "name": "M44",
+        "address": "Jupitervegen 2",
+        "city": "Bryne",
+        "zipCode": "4340",
+        "addressLine": "Jupitervegen 2",
+        "butikk": "M44",
+        "shoppingCenter": "M44",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1927273,
+          59.26440262
+        ]
+      },
+      "properties": {
+        "id": "sc-3824",
+        "name": "AMFI Åkrehamn",
+        "address": "Tungarden 1",
+        "city": "Åkrehamn",
+        "zipCode": "4270",
+        "addressLine": "Tungarden 1",
+        "butikk": "AMFI Åkrehamn",
+        "shoppingCenter": "AMFI Åkrehamn",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.48830291,
+          59.85437536
+        ]
+      },
+      "properties": {
+        "id": "sc-3825",
+        "name": "Holmensenteret",
+        "address": "Vogellund 6",
+        "city": "Nesbru",
+        "zipCode": "1394",
+        "addressLine": "Vogellund 6",
+        "butikk": "Holmensenteret",
+        "shoppingCenter": "Holmensenteret",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.73360107,
+          59.94990056
+        ]
+      },
+      "properties": {
+        "id": "sc-3826",
+        "name": "AMFI Ullevål",
+        "address": "Sognsveien 77",
+        "city": "Oslo",
+        "zipCode": "0855",
+        "addressLine": "Sognsveien 77",
+        "butikk": "AMFI Ullevål",
+        "shoppingCenter": "AMFI Ullevål",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.32627104,
+          60.3929854
+        ]
+      },
+      "properties": {
+        "id": "sc-3827",
+        "name": "Xhibition",
+        "address": "Småstrandgaten 3",
+        "city": "Bergen",
+        "zipCode": "5014",
+        "addressLine": "Småstrandgaten 3",
+        "butikk": "Xhibition",
+        "shoppingCenter": "Xhibition",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.37945299,
+          67.28401993
+        ]
+      },
+      "properties": {
+        "id": "sc-3828",
+        "name": "Glasshuset - Bodø",
+        "address": "Storgata 5",
+        "city": "Bodø",
+        "zipCode": "8006",
+        "addressLine": "Storgata 5",
+        "butikk": "Glasshuset - Bodø",
+        "shoppingCenter": "Glasshuset - Bodø",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.92589168,
+          59.89292306
+        ]
+      },
+      "properties": {
+        "id": "sc-3829",
+        "name": "Åmotsenteret",
+        "address": "Lilleåsgata 1",
+        "city": "Åmot",
+        "zipCode": "3340",
+        "addressLine": "Lilleåsgata 1",
+        "butikk": "Åmotsenteret",
+        "shoppingCenter": "Åmotsenteret",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.48561723,
+          59.41608509
+        ]
+      },
+      "properties": {
+        "id": "sc-3830",
+        "name": "Vektergården",
+        "address": "Langgata 2",
+        "city": "Horten",
+        "zipCode": "3187",
+        "addressLine": "Langgata 2",
+        "butikk": "Vektergården",
+        "shoppingCenter": "Vektergården",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.64894178,
+          59.67210011
+        ]
+      },
+      "properties": {
+        "id": "sc-3831",
+        "name": "Berja Senter",
+        "address": "Herman Foss gate 12",
+        "city": "Kongsberg",
+        "zipCode": "3611",
+        "addressLine": "Herman Foss gate 12",
+        "butikk": "Berja Senter",
+        "shoppingCenter": "Berja Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.69033084,
+          62.59501235
+        ]
+      },
+      "properties": {
+        "id": "sc-3832",
+        "name": "Domus senteret Oppdal",
+        "address": "Aunevegen 3",
+        "city": "Oppdal",
+        "zipCode": "7340",
+        "addressLine": "Aunevegen 3",
+        "butikk": "Domus senteret Oppdal",
+        "shoppingCenter": "Domus senteret Oppdal",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9307747,
+          59.21126044
+        ]
+      },
+      "properties": {
+        "id": "sc-3833",
+        "name": "Værste Senter",
+        "address": "Jens Wilhelmsens gate 7",
+        "city": "Kråkerøy",
+        "zipCode": "1671",
+        "addressLine": "Jens Wilhelmsens gate 7",
+        "butikk": "Værste Senter",
+        "shoppingCenter": "Værste Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.45674106,
+          60.20171826333333
+        ]
+      },
+      "properties": {
+        "id": "sc-3834",
+        "name": "AMFI Os",
+        "address": "Prestegardskogen 2",
+        "city": "Os",
+        "zipCode": "5210",
+        "addressLine": "Prestegardskogen 2",
+        "butikk": "AMFI Os",
+        "shoppingCenter": "AMFI Os",
+        "isShoppingCenter": true,
+        "storeCount": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.71572828,
+          58.45997935
+        ]
+      },
+      "properties": {
+        "id": "sc-3835",
+        "name": "Stoa Senter",
+        "address": "Stoaveien 6",
+        "city": "Arendal",
+        "zipCode": "4848",
+        "addressLine": "Stoaveien 6",
+        "butikk": "Stoa Senter",
+        "shoppingCenter": "Stoa Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41146826,
+          60.15136379
+        ]
+      },
+      "properties": {
+        "id": "sc-3836",
+        "name": "AMFI Eurosenteret",
+        "address": "Kjølstadvegen 1",
+        "city": "Vormsund",
+        "zipCode": "2160",
+        "addressLine": "Kjølstadvegen 1",
+        "butikk": "AMFI Eurosenteret",
+        "shoppingCenter": "AMFI Eurosenteret",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.66542894,
+          58.29371588
+        ]
+      },
+      "properties": {
+        "id": "sc-3837",
+        "name": "AMFI Flekkefjord",
+        "address": "Jernbaneveien 12",
+        "city": "Flekkefjord",
+        "zipCode": "4405",
+        "addressLine": "Jernbaneveien 12",
+        "butikk": "AMFI Flekkefjord",
+        "shoppingCenter": "AMFI Flekkefjord",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.46252011,
+          63.44017737
+        ]
+      },
+      "properties": {
+        "id": "sc-3838",
+        "name": "Lade Arena",
+        "address": "Haakon VII's gate 12",
+        "city": "Trondheim",
+        "zipCode": "7041",
+        "addressLine": "Haakon VII's gate 12",
+        "butikk": "Lade Arena",
+        "shoppingCenter": "Lade Arena",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.72659271,
+          59.9101826
+        ]
+      },
+      "properties": {
+        "id": "sc-3839",
+        "name": "Aker Brygge",
+        "address": "Holmens gate 7",
+        "city": "Oslo",
+        "zipCode": "0250",
+        "addressLine": "Holmens gate 7",
+        "butikk": "Aker Brygge",
+        "shoppingCenter": "Aker Brygge",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.75155248,
+          59.91177069
+        ]
+      },
+      "properties": {
+        "id": "sc-3840",
+        "name": "Byporten Shopping",
+        "address": "Jernbanetorget 6",
+        "city": "Oslo",
+        "zipCode": "0154",
+        "addressLine": "Jernbanetorget 6",
+        "butikk": "Byporten Shopping",
+        "shoppingCenter": "Byporten Shopping",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.58011016,
+          67.29369367
+        ]
+      },
+      "properties": {
+        "id": "sc-3841",
+        "name": "Hunstadsenteret",
+        "address": "Greisdalsveien 94",
+        "city": "Bodø",
+        "zipCode": "8028",
+        "addressLine": "Greisdalsveien 94",
+        "butikk": "Hunstadsenteret",
+        "shoppingCenter": "Hunstadsenteret",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.72405138,
+          59.00136321
+        ]
+      },
+      "properties": {
+        "id": "sc-3842",
+        "name": "Øysenteret Hundvåg",
+        "address": "Østersveien 1",
+        "city": "Hundvåg",
+        "zipCode": "4083",
+        "addressLine": "Østersveien 1",
+        "butikk": "Øysenteret Hundvåg",
+        "shoppingCenter": "Øysenteret Hundvåg",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.12384231,
+          59.75669202
+        ]
+      },
+      "properties": {
+        "id": "sc-3843",
+        "name": "Ligosenteret",
+        "address": "Betzy Kjelsbergs vei 263",
+        "city": "Drammen",
+        "zipCode": "3028",
+        "addressLine": "Betzy Kjelsbergs vei 263",
+        "butikk": "Ligosenteret",
+        "shoppingCenter": "Ligosenteret",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.84766793,
+          59.92600121
+        ]
+      },
+      "properties": {
+        "id": "sc-3844",
+        "name": "Alna Senter",
+        "address": "Strømsveien 245",
+        "city": "Oslo",
+        "zipCode": "0668",
+        "addressLine": "Strømsveien 245",
+        "butikk": "Alna Senter",
+        "shoppingCenter": "Alna Senter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.08929886,
+          60.79607801
+        ]
+      },
+      "properties": {
+        "id": "sc-3845",
+        "name": "CC Mart'n Hamar",
+        "address": "Ringgata 53",
+        "city": "Hamar",
+        "zipCode": "2318",
+        "addressLine": "Ringgata 53",
+        "butikk": "CC Mart'n Hamar",
+        "shoppingCenter": "CC Mart'n Hamar",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.72830125,
+          58.96986612
+        ]
+      },
+      "properties": {
+        "id": "sc-3846",
+        "name": "Straen Senteret",
+        "address": "Lars Hertervigs gate 6",
+        "city": "Stavanger",
+        "zipCode": "4005",
+        "addressLine": "Lars Hertervigs gate 6",
+        "butikk": "Straen Senteret",
+        "shoppingCenter": "Straen Senteret",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.81108091,
+          59.87381002
+        ]
+      },
+      "properties": {
+        "id": "sc-3847",
+        "name": "Lambertseter Senter",
+        "address": "Cecilie Thoresens vei 21",
+        "city": "Oslo",
+        "zipCode": "1153",
+        "addressLine": "Cecilie Thoresens vei 21",
+        "butikk": "Lambertseter Senter",
+        "shoppingCenter": "Lambertseter Senter",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.93952233,
+          59.21393041
+        ]
+      },
+      "properties": {
+        "id": "sc-3848",
+        "name": "Torvbyen Senter",
+        "address": "Brochs gate 8",
+        "city": "Fredrikstad",
+        "zipCode": "1607",
+        "addressLine": "Brochs gate 8",
+        "butikk": "Torvbyen Senter",
+        "shoppingCenter": "Torvbyen Senter",
+        "isShoppingCenter": true,
+        "storeCount": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.00481023,
+          58.45297176
+        ]
+      },
+      "properties": {
+        "id": "sc-3849",
+        "name": "AMFI Eikunda",
+        "address": "Fabrikkgaten 2",
+        "city": "Egersund",
+        "zipCode": "4370",
+        "addressLine": "Fabrikkgaten 2",
+        "butikk": "AMFI Eikunda",
+        "shoppingCenter": "AMFI Eikunda",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.73086277,
+          58.99370294
+        ]
+      },
+      "properties": {
+        "id": "sc-3850",
+        "name": "Hundvåg Senteret",
+        "address": "Hundvågveien 49",
+        "city": "Hundvåg",
+        "zipCode": "4085",
+        "addressLine": "Hundvågveien 49",
+        "butikk": "Hundvåg Senteret",
+        "shoppingCenter": "Hundvåg Senteret",
+        "isShoppingCenter": true,
+        "storeCount": 1
+      }
     }
   ]
 }

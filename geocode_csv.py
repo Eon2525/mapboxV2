@@ -10,7 +10,7 @@ import os
 import time
 import requests
 import re
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
 # Configuration
 CSV_FILE = 'Steder/StedertstAlle.csv'
@@ -89,6 +89,7 @@ def convert_csv_to_geojson():
     geocoded_count = 0
     missing_coords_count = 0
     total_count = 0
+    shopping_centers: Dict[str, Dict[str, Any]] = {}
     
     print(f"Reading CSV file: {CSV_FILE}")
     
@@ -133,6 +134,35 @@ def convert_csv_to_geojson():
                     print(f"  ❌ Could not geocode, skipping this row")
                     continue
             
+            # Track shopping center aggregations (for later center feature)
+            if shopping_center:
+                center_stats = shopping_centers.setdefault(
+                    shopping_center,
+                    {
+                        'lon_sum': 0.0,
+                        'lat_sum': 0.0,
+                        'coord_count': 0,
+                        'store_count': 0,
+                        'address': '',
+                        'city': '',
+                        'zipCode': ''
+                    }
+                )
+
+                center_stats['store_count'] += 1
+
+                if longitude is not None and latitude is not None:
+                    center_stats['lon_sum'] += longitude
+                    center_stats['lat_sum'] += latitude
+                    center_stats['coord_count'] += 1
+
+                if not center_stats['address'] and address_line:
+                    center_stats['address'] = address_line
+                if not center_stats['city'] and post_place:
+                    center_stats['city'] = post_place
+                if not center_stats['zipCode'] and zip_code:
+                    center_stats['zipCode'] = zip_code
+
             # Create GeoJSON feature
             feature = {
                 'type': 'Feature',
@@ -158,6 +188,40 @@ def convert_csv_to_geojson():
             if total_count % 100 == 0:
                 print(f"  Processed {total_count} rows...")
     
+    # Generate one feature per shopping center
+    center_features_added = 0
+    for center_name, stats in shopping_centers.items():
+        if stats['coord_count'] == 0:
+            # Skip centers without coordinates
+            continue
+
+        avg_lon = stats['lon_sum'] / stats['coord_count']
+        avg_lat = stats['lat_sum'] / stats['coord_count']
+        total_count += 1
+        center_features_added += 1
+
+        center_feature = {
+            'type': 'Feature',
+            'geometry': {
+                'type': 'Point',
+                'coordinates': [avg_lon, avg_lat]
+            },
+            'properties': {
+                'id': f'sc-{total_count}',
+                'name': center_name,
+                'address': stats['address'],
+                'city': stats['city'],
+                'zipCode': stats['zipCode'],
+                'addressLine': stats['address'],
+                'butikk': center_name,
+                'shoppingCenter': center_name,
+                'isShoppingCenter': True,
+                'storeCount': stats['store_count']
+            }
+        }
+
+        features.append(center_feature)
+
     # Create GeoJSON FeatureCollection
     geojson = {
         'type': 'FeatureCollection',
@@ -174,6 +238,7 @@ def convert_csv_to_geojson():
     print(f"   Features with coordinates: {len(features)}")
     print(f"   Rows missing coordinates: {missing_coords_count}")
     print(f"   Successfully geocoded: {geocoded_count}")
+    print(f"   Shopping centers added: {center_features_added}")
     print(f"   GeoJSON file created: {OUTPUT_FILE}")
 
 if __name__ == '__main__':

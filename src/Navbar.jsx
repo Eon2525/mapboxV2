@@ -6,6 +6,8 @@
 
 import React from 'react'
 import { MapboxTooltips } from 'mapbox-demo-components'
+import hkLogo from '/img/hk-logo.svg'
+
 const Navbar = () => {
   return (
     <>
@@ -21,10 +23,13 @@ const Navbar = () => {
         ]}
       />
 
-      <div className='flex shrink-0 justify-between h-16 py-12 items-center border-b border-gray-200 bg-white z-10 px-8'>
-        <div className='text-3xl font-bold text-maroon tracking-wide'>
-          Ordna forhold
+      <div className='relative flex shrink-0 items-center justify-center h-24 border-b border-gray-200 bg-white z-10 px-8'>
+        <div className='absolute left-8 top-1/2 -translate-y-1/2 flex items-center gap-3'>
+          <img src={hkLogo} alt='HK Norge' className='h-12 w-auto' />
         </div>
+        <h1 className='text-3xl font-bold text-maroon tracking-wide text-center'>
+          Ordna forhold
+        </h1>
       </div>
     </>
   )
