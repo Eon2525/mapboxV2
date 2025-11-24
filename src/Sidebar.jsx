@@ -29,11 +29,10 @@ const Sidebar = ({ mapInstanceRef }) => {
 
   return (
     <div
-      /* Manually set the height of sidebar minus header to enable proper flex height & overflow scrolling */
-      style={{ height: `calc(100vh - 6rem)` }}
-      className='absolute sm:relative flex flex-col p-4 w-full sm:w-96'
+      style={{ maxHeight: `calc(100vh - 6rem)` }}
+      className='flex flex-col gap-4 w-full sm:w-96 p-4 bg-white/95 sm:bg-transparent overflow-y-auto sm:overflow-visible'
     >
-      <div className='sticky top-0 z-20 flex flex-col sm:block flex-col-reverse'>
+      <div className='sticky top-0 z-20 flex flex-col gap-3 sm:block sm:gap-0 bg-white/95 sm:bg-transparent pb-3 sm:pb-0'>
         <UseMyLocation
           denyLocation={denyLocation}
           setDenyLocation={setDenyLocation}
@@ -42,7 +41,7 @@ const Sidebar = ({ mapInstanceRef }) => {
         <SearchBoxWrapper mapInstanceRef={mapInstanceRef} />
       </div>
 
-      <div className='hidden sm:block'>
+      <div>
         <div className='text-2xl text-black font-semibold w-full mb-1.5 mt-6 z-0'>
           Virksomheter
         </div>

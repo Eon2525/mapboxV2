@@ -71,7 +71,7 @@ const CardList = () => {
 
 
   return (
-    <div className='overflow-y-auto invisible sm:visible h-0 sm:h-auto'>
+    <div className='mt-4 sm:mt-0 overflow-y-auto max-h-[50vh] sm:max-h-none pb-2'>
       {sortedFeatures.length > 0 &&
         sortedFeatures.map((feature, i) => {
           return (

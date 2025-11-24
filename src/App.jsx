@@ -39,10 +39,11 @@ export default function Home() {
         <Navbar />
 
         {/* Main Content Wrapper */}
-        <div className='flex grow relative'>
+        <div className='flex grow flex-col sm:flex-row relative'>
           <Sidebar mapInstanceRef={mapInstanceRef} />
-
-          <Map onLoad={handleMapLoad} />
+          <div className='flex-1 min-h-[40vh] flex'>
+            <Map onLoad={handleMapLoad} />
+          </div>
         </div>
       </main>
     </>
