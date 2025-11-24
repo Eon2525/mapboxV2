@@ -1,7 +1,7 @@
 // Card Layout, used in both Map Popups and in the CardList
 // This component also makes use of turf.js (https://turfjs.org) to calculate
 // the distance from the activeLocation (either user location or search location)
-// to the store location. The results are returned in miles and added to the card
+// to the store location. The results are returned in kilometers and added to the card
 // LocationData is used in both Popups and in the Sidebar, while the Card component
 // with additional hover logic is only used in the Sidebar
 
@@ -30,10 +30,15 @@ export const LocationData = ({ feature }) => {
 
   // Use turf.js to calculate distance from map Center (userLocation or search Location) to Feature
   function getDistance(feature, location) {
-    var options = { units: 'miles' }
-    var distanceTo = distance(location, feature, options).toFixed(1)
-    return distanceTo
+    const options = { units: 'kilometers' }
+    const km = distance(location, feature, options)
+    return Number.isFinite(km) ? km.toFixed(1) : ''
   }
+
+  const distanceText =
+    activeLocation && activeLocation.coords
+      ? getDistance(coordinates, activeLocation.coords)
+      : ''
 
   return (
     <div className='flex justify-between w-full'>
@@ -55,9 +60,7 @@ export const LocationData = ({ feature }) => {
         </a>
       </div>
       <div className='text-slate-400 min-w-16 text-right'>
-        {activeLocation
-          ? `${getDistance(coordinates, activeLocation.coords)} mi`
-          : ''}
+        {distanceText ? `${distanceText} km` : ''}
       </div>
     </div>
   )

@@ -151,22 +151,6 @@ const Map = ({ onLoad }) => {
       const layer = map.getLayer(LOCATION_LAYER_ID)
       if (!layer) return
 
-      if (layer.type === 'symbol') {
-        map.setLayoutProperty(LOCATION_LAYER_ID, 'icon-size', [
-          'interpolate',
-          ['linear'],
-          ['zoom'],
-          4,
-          0.8,
-          8,
-          1.1,
-          12,
-          1.6,
-          16,
-          2.1
-        ])
-      }
-
       if (layer.type === 'circle') {
         map.setPaintProperty(LOCATION_LAYER_ID, 'circle-radius', [
           'interpolate',
@@ -177,7 +161,9 @@ const Map = ({ onLoad }) => {
           8,
           6,
           12,
-          10,
+          9,
+          14,
+          11,
           16,
           14
         ])
@@ -226,7 +212,32 @@ const Map = ({ onLoad }) => {
         const locationsInView = mapRef.current.queryRenderedFeatures({
           layers: [LOCATION_LAYER_ID]
         })
-        setFeatures(locationsInView)
+        const bounds = map.getBounds()
+        const seenIds = new Set()
+        const filtered = []
+
+        for (const feature of locationsInView) {
+          const coords = feature.geometry?.coordinates
+          if (!coords || coords.length < 2) continue
+
+          const [lng, lat] = coords
+          const id =
+            feature.properties?.id ??
+            `${lng},${lat}-${feature.properties?.name ?? 'ukjent'}`
+
+          if (
+            lng >= bounds.getWest() &&
+            lng <= bounds.getEast() &&
+            lat >= bounds.getSouth() &&
+            lat <= bounds.getNorth() &&
+            !seenIds.has(id)
+          ) {
+            seenIds.add(id)
+            filtered.push(feature)
+          }
+        }
+
+        setFeatures(filtered)
       }
     })
 
@@ -341,3 +352,4 @@ Map.propTypes = {
 }
 
 export default Map
+

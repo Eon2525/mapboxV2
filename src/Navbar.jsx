@@ -11,26 +11,28 @@ import hkLogo from '/img/hk-logo.svg'
 const Navbar = () => {
   return (
     <>
-      <MapboxTooltips
-        products={[
-          'Mapbox GL JS',
-          'Mapbox Search JS',
-          'MTS Clustering',
-          'Mapbox Standard Style',
-          'Map Markers',
-          'Popups',
-          'Source Code'
-        ]}
-      />
+      <div className='hidden sm:block'>
+        <MapboxTooltips
+          products={[
+            'Mapbox GL JS',
+            'Mapbox Search JS',
+            'MTS Clustering',
+            'Mapbox Standard Style',
+            'Map Markers',
+            'Popups',
+            'Source Code'
+          ]}
+        />
+      </div>
 
-      <div className='relative flex shrink-0 items-center justify-center h-24 border-b border-gray-200 bg-white z-10 px-8'>
-        <div className='absolute left-8 top-1/2 -translate-y-1/2 flex items-center gap-3'>
-          <img src={hkLogo} alt='HK Norge' className='h-12 w-auto' />
+      <header className='relative flex shrink-0 items-center justify-center h-24 border-b border-gray-200 bg-white z-10 px-6 pl-28 sm:px-8 sm:pl-36'>
+        <div className='absolute left-6 sm:left-8 top-1/2 -translate-y-1/2 flex items-center gap-3'>
+          <img src={hkLogo} alt='HK Norge' className='h-10 sm:h-12 w-auto' />
         </div>
-        <h1 className='text-3xl font-bold text-maroon tracking-wide text-center'>
+        <h1 className='text-2xl sm:text-3xl font-bold text-maroon tracking-wide text-center'>
           Ordna forhold
         </h1>
-      </div>
+      </header>
     </>
   )
 }
