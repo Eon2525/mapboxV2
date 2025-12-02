@@ -14,6 +14,7 @@ import UseMyLocation from './UseMyLocation'
 const Sidebar = ({ mapInstanceRef }) => {
   const {
     features,
+    setFeatures,
     denyLocation,
     setDenyLocation,
     setSearchValue,
@@ -25,6 +26,8 @@ const Sidebar = ({ mapInstanceRef }) => {
   const handleReset = () => {
     setActiveFeature(null)
     setActiveLocation(null)
+    setSearchValue('')
+    setFeatures([])
   }
 
   return (
@@ -49,12 +52,12 @@ const Sidebar = ({ mapInstanceRef }) => {
           <span className='text-maroon font-bold'>{features.length}</span>{' '}
           virksomheter i nærheten
         </div>
-        {activeFeature && (
+        {(activeFeature || features.length > 0) && (
           <button
             onClick={handleReset}
             className='text-sm text-maroon underline mb-4'
           >
-            Tilbakestill kart
+            Tilbakestill søk
           </button>
         )}
       </div>

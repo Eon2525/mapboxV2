@@ -2,6 +2,8 @@ node_modules/
 dist/
 .env
 .env.*
+!.env.production
+!.env.staging
 .vscode/
 .DS_Store
 npm-debug.log*

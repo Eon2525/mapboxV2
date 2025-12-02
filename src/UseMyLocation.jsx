@@ -12,10 +12,15 @@ import { faLocationArrow, faSpinner } from '@fortawesome/free-solid-svg-icons'
 import { AppContext } from './Context/AppContext'
 
 const UseMyLocation = ({ denyLocation, setDenyLocation, setSearchValue }) => {
-  const { setActiveLocation, loadingUserLocation, setLoadingUserLocation } =
-    useContext(AppContext)
+  const {
+    setActiveLocation,
+    loadingUserLocation,
+    setLoadingUserLocation,
+    setActiveFeature
+  } = useContext(AppContext)
 
   function handleClick() {
+    setActiveFeature(null)
     setLoadingUserLocation(true)
     getUserLocation(setActiveLocation, setLoadingUserLocation, setDenyLocation)
     // empty search input

@@ -194,8 +194,9 @@ body {
   border-radius: 12px;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
   border: 1px solid rgba(15, 23, 42, 0.08);
-  z-index: 40;
+  z-index: 9999;
   overflow: hidden;
+  pointer-events: auto;
 }
 
 .store-search-results__header {
@@ -219,6 +220,7 @@ body {
   cursor: pointer;
   padding: 12px 14px;
   border-top: 1px solid rgba(15, 23, 42, 0.06);
+  pointer-events: auto;
 }
 
 .store-search-results__item:first-of-type {

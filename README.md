@@ -32,3 +32,29 @@ cd into this directory and run the development server:
 ```
 cd projects/demo-store-locator && yarn dev
 ```
+
+## Deployment
+
+This project now deploys to two separate GitHub Pages branches so that staging
+tests do not overwrite production.
+
+- `npm run deploy:staging` → builds with Vite `--mode staging` (uses `.env.staging`)
+  and publishes to the `gh-pages-staging` branch.
+- `npm run deploy:prod` → builds with Vite `--mode production` (uses `.env.production`)
+  and publishes to the `gh-pages` branch.
+
+`npm run deploy` remains an alias for the production deploy. The `gh-pages`
+package will create the target branch the first time you deploy, but you must
+flip the GitHub Pages settings so `gh-pages-staging` serves your staging URL and
+`gh-pages` serves production.
+
+After configuring Pages keep this workflow:
+
+1. Push feature work to your staging branch and run `npm run deploy:staging` to
+   verify the changes.
+2. Merge the approved changes to `master` and run `npm run deploy:prod` to update
+   the live site.
+
+If you need to inspect the static output without publishing, use
+`npm run build:staging` or `npm run build:prod`. Both commands honour the
+`VITE_BASE_PATH` variable defined in the matching `.env.<mode>` file.

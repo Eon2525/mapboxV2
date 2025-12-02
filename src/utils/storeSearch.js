@@ -5,9 +5,12 @@ export const normalizeString = (value = '') => {
     .trim()
 }
 
+const removeDiacritics = (value = '') =>
+  value.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+
 export const buildSearchHaystack = (properties = {}) => {
   const { name, butikk, address, shoppingCenter, addressLine, city, zipCode, id } = properties
-  return [
+  const tokens = [
     name,
     butikk,
     shoppingCenter,
@@ -17,8 +20,22 @@ export const buildSearchHaystack = (properties = {}) => {
     zipCode,
     id
   ]
+
+  if (shoppingCenter) {
+    tokens.push(`${shoppingCenter} kjøpesenter`, `${shoppingCenter} storsenter`)
+  }
+
+  if (properties?.isShoppingCenter) {
+    tokens.push('kjøpesenter', 'kjopesenter', 'storsenter', 'senter', 'shopping center', 'shoppingcenter')
+  }
+
+  return tokens
     .filter(Boolean)
-    .map(normalizeString)
+    .flatMap((value) => {
+      const normalized = normalizeString(value)
+      const ascii = removeDiacritics(normalized)
+      return ascii && ascii !== normalized ? [normalized, ascii] : [normalized]
+    })
     .join(' ')
 }
 
@@ -50,7 +67,7 @@ export const searchStores = (stores = [], query = '', limit = 8) => {
       bucket.push(feature)
     }
 
-    if (centerMatches.length + storeMatches.length >= limit * 2) {
+    if (centerMatches.length >= limit && storeMatches.length >= limit) {
       break
     }
   }

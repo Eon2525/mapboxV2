@@ -11,20 +11,6 @@ import hkLogo from '/img/hk-logo.svg'
 const Navbar = () => {
   return (
     <>
-      <div className='hidden sm:block'>
-        <MapboxTooltips
-          products={[
-            'Mapbox GL JS',
-            'Mapbox Search JS',
-            'MTS Clustering',
-            'Mapbox Standard Style',
-            'Map Markers',
-            'Popups',
-            'Source Code'
-          ]}
-        />
-      </div>
-
       <header className='relative flex flex-col sm:flex-row shrink-0 items-center justify-center gap-2 sm:gap-0 bg-white border-b border-gray-200 z-10 px-4 py-4 sm:px-8 sm:py-0 sm:h-24'>
         <div className='flex items-center gap-3 sm:absolute sm:left-8 sm:top-1/2 sm:-translate-y-1/2'>
           <img src={hkLogo} alt='HK Norge' className='h-10 sm:h-12 w-auto' />

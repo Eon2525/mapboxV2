@@ -3,7 +3,7 @@
 
 'use client'
 
-import { useContext, useEffect, useMemo, useState } from 'react'
+import { useContext, useEffect, useMemo, useState, useRef } from 'react'
 import { SearchBox } from '@mapbox/search-js-react'
 import mapboxgl from 'mapbox-gl'
 import { AppContext } from './Context/AppContext'
@@ -26,8 +26,11 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
     storeFeatures
   } = useContext(AppContext)
 
+  const isSelectingRef = useRef(false)
+
   const [storeResults, setStoreResults] = useState([])
   const [isFocused, setIsFocused] = useState(false)
+  const [hasSelectedResult, setHasSelectedResult] = useState(false)
 
   const trimmedSearch = useMemo(() => searchValue.trim(), [searchValue])
 
@@ -38,6 +41,7 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
     }
 
     const matches = searchStores(storeFeatures, trimmedSearch, 8)
+    console.debug('Store search:', trimmedSearch, 'found', matches.length, 'matches')
     setStoreResults(matches)
   }, [storeFeatures, trimmedSearch])
 
@@ -47,6 +51,11 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
   }
 
   const handleSearchResult = (value) => {
+    if (isSelectingRef.current) {
+      isSelectingRef.current = false
+      return
+    }
+
     if (!value?.features?.length) {
       return value
     }
@@ -65,6 +74,7 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
     setActiveFeature(null)
     setStoreResults([])
     setIsFocused(false)
+    setHasSelectedResult(true)
 
     if (mapInstanceRef.current?.flyTo) {
       mapInstanceRef.current.flyTo({
@@ -78,21 +88,30 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
   }
 
   const handleStoreSelect = (feature) => {
-    if (!feature?.geometry?.coordinates) return
-    setActiveFeature(feature)
-    setFeatures([])
+    isSelectingRef.current = true
+    
+    if (!feature?.geometry?.coordinates) {
+      return
+    }
+    
+    if (feature.properties?.isShoppingCenter) {
+      // If it's a shopping center, populate the features list with its stores
+      const centerName = feature.properties.name
+      const storesInCenter = storeFeatures.filter(
+        (f) => f.properties?.shoppingCenter === centerName && !f.properties?.isShoppingCenter
+      )
+      setFeatures(storesInCenter)
+      setActiveFeature(feature) // Set the center as active feature to trigger map zoom
+    } else {
+      setActiveFeature(feature)
+      setFeatures([])
+    }
+
     setSearchResult(null)
     setStoreResults([])
     setSearchValue(feature.properties?.name ?? '')
     setIsFocused(false)
-
-    if (mapInstanceRef.current?.flyTo) {
-      mapInstanceRef.current.flyTo({
-        center: feature.geometry.coordinates,
-        zoom: 14,
-        essential: true
-      })
-    }
+    setHasSelectedResult(true)
   }
 
   const mapCenter = mapInstanceRef.current?.getCenter?.()
@@ -117,7 +136,17 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
   return (
     <div
       className='relative'
-      onFocusCapture={() => setIsFocused(true)}
+      onFocusCapture={() => {
+        // Only clear if we're not already focused (prevents clearing while typing)
+        if (!isFocused) {
+          // Clear old search text when user clicks in the search field after selecting a result
+          if (hasSelectedResult && searchValue) {
+            setSearchValue('')
+            setHasSelectedResult(false)
+          }
+          setIsFocused(true)
+        }
+      }}
       onBlurCapture={() => {
         setTimeout(() => setIsFocused(false), 150)
       }}
@@ -181,8 +210,27 @@ const SearchBoxWrapper = ({ mapInstanceRef }) => {
                 <li
                   key={id ?? `${name}-${feature.geometry.coordinates.join(',')}`}
                   className='store-search-results__item'
-                  onMouseDown={(event) => event.preventDefault()}
-                  onClick={() => handleStoreSelect(feature)}
+                  style={{ pointerEvents: 'auto' }}
+                  onMouseDown={(event) => {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    console.log('onMouseDown triggered for:', title)
+                    try {
+                      handleStoreSelect(feature)
+                    } catch (e) {
+                      console.error('Error calling handleStoreSelect:', e)
+                    }
+                  }}
+                  onClick={(event) => {
+                    event.preventDefault()
+                    event.stopPropagation()
+                    console.log('onClick triggered for:', title)
+                    try {
+                      handleStoreSelect(feature)
+                    } catch (e) {
+                      console.error('Error calling handleStoreSelect:', e)
+                    }
+                  }}
                 >
                   <div className='store-search-results__title'>
                     {title}

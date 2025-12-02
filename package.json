@@ -6,8 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "build:prod": "vite build --mode production",
+    "build:staging": "vite build --mode staging",
+    "deploy": "npm run deploy:prod",
+    "deploy:prod": "npm run build:prod && gh-pages -d dist -b gh-pages",
+    "deploy:staging": "npm run build:staging && gh-pages -d dist -b gh-pages-staging",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
